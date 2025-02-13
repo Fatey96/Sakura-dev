@@ -1,0 +1,28 @@
+/*
+  const openStixVisualizer = () => {
+    const visualizerUrl = 'https://oasis-open.github.io/cti-stix-visualization/';
+    
+    // Store the STIX bundle in localStorage
+    localStorage.setItem('stixBundle', JSON.stringify(stixBundle));
+    
+    // Open the visualizer in a new tab
+    const newTab = window.open(visualizerUrl, '_blank');
+    
+    // If the new tab was successfully opened, add a script to retrieve and use the STIX bundle
+    if (newTab) {
+      newTab.addEventListener('DOMContentLoaded', () => {
+        newTab.postMessage('getStixBundle', '*');
+      });
+      
+      // Listen for the message from the visualizer page
+      window.addEventListener('message', (event) => {
+        if (event.data === 'readyForStixBundle') {
+          const storedBundle = localStorage.getItem('stixBundle');
+          event.source.postMessage({ type: 'stixBundle', data: storedBundle }, '*');
+          localStorage.removeItem('stixBundle'); // Clean up after sending
+        }
+      });
+    } else {
+      alert('Please allow popups for this site to use the STIX Visualizer.');
+    }
+  };*/
