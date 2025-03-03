@@ -1,0 +1,43 @@
+[
+  {
+    "type": "campaign",
+    "spec_version": "2.1",
+    "id": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92",
+    "created": "2023-10-15T10:00:00.000Z",
+    "modified": "2023-10-15T10:00:00.000Z",
+    "name": "Operation Nightshade",
+    "description": "A series of cyberattacks targeting healthcare facilities across North America, aiming to disrupt services and steal patient data.",
+    "aliases": [
+      "OpNightshade",
+      "Healthcare Disruption Campaign"
+    ],
+    "first_seen": "2023-08-01T00:00:00Z",
+    "last_seen": "2023-10-10T23:59:59Z",
+    "objective": "Compromise healthcare systems to extract sensitive patient information for sale on the dark web.",
+    "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+    "indicator_refs": [
+      "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77",
+      "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234"
+    ]
+  },
+  {
+    "type": "campaign",
+    "spec_version": "2.1",
+    "id": "campaign--bdc2d3c0-8b4c-4f3a-a1ab-1c2d3d6c3b08",
+    "created": "2023-10-15T10:15:00.000Z",
+    "modified": "2023-10-15T10:15:00.000Z",
+    "name": "Operation Phantom Shadow",
+    "description": "A coordinated espionage campaign targeting government contractors in the defense sector, utilizing advanced phishing techniques.",
+    "aliases": [
+      "OpPhantomShadow",
+      "Defense Contractor Espionage"
+    ],
+    "first_seen": "2023-09-05T00:00:00Z",
+    "last_seen": "2023-10-12T23:59:59Z",
+    "objective": "Steal sensitive defense-related documents and intellectual property from contractors.",
+    "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+    "indicator_refs": [
+      "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77"
+    ]
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--a0b83bba-7d2f-4e3c-8c3d-6f2c1e5a0dc5",
+    "created": "2023-10-01T15:30:00.000Z",
+    "modified": "2023-10-01T15:30:00.000Z",
+    "name": "Credential Dumping",
+    "description": "Credential Dumping is the act of obtaining account login and password information from the operating system and software applications. This can be achieved through various methods, such as using tools like Mimikatz to extract credentials from memory or utilizing Windows API calls.",
+    "aliases": [
+      "Credential Harvesting",
+      "Credential Extraction"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+        "phase_name": "exploitation"
+      },
+      {
+        "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+        "phase_name": "installation"
+      }
+    ]
+  },
+  {
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--e1f6cb4b-cb68-4e8a-a2a5-7d0c3cd4b1c6",
+    "created": "2023-10-01T15:45:00.000Z",
+    "modified": "2023-10-01T15:45:00.000Z",
+    "name": "Ransomware Deployment",
+    "description": "Ransomware Deployment involves the use of malicious software that encrypts files on a victim's system, rendering them inaccessible until a ransom is paid. Attackers may use various delivery methods, including phishing emails or exploiting software vulnerabilities.",
+    "aliases": [
+      "Crypto-Malware",
+      "File Encryption Ransomware"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+        "phase_name": "delivery"
+      },
+      {
+        "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+        "phase_name": "execution"
+      }
+    ]
+  },
+  {
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--b3e6e2e5-4c58-4c78-9c9e-3b8fbb0e7c02",
+    "created": "2023-10-01T16:00:00.000Z",
+    "modified": "2023-10-01T16:00:00.000Z",
+    "name": "SQL Injection",
+    "description": "SQL Injection is a code injection technique that exploits a security vulnerability in an application's software by manipulating SQL queries. An attacker can gain access to sensitive data, modify or delete database entries, or execute administrative operations on the database.",
+    "aliases": [
+      "SQLi",
+      "Database Injection"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+        "phase_name": "exploitation"
+      }
+    ]
+  },
+  {
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--c4e5c1e3-9c08-4d8f-bb7b-0a9102cda2d1",
+    "created": "2023-10-01T16:15:00.000Z",
+    "modified": "2023-10-01T16:15:00.000Z",
+    "name": "Command and Control over HTTPS",
+    "description": "Command and Control (C2) over HTTPS allows attackers to communicate with compromised systems securely. This method often employs legitimate services to hide traffic, making it difficult for security solutions to detect malicious activities.",
+    "aliases": [
+      "C2 over TLS",
+      "HTTPS Command and Control"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+        "phase_name": "command-and-control"
+      }
+    ]
+  },
+  {
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--d6a5f5e6-2e25-4a0e-b7e3-8e8d0d4e8ef7",
+    "created": "2023-10-01T16:30:00.000Z",
+    "modified": "2023-10-01T16:30:00.000Z",
+    "name": "Malicious Macro Execution",
+    "description": "Malicious Macro Execution is a technique where an attacker uses macros in documents (such as Microsoft Office files) to execute harmful code when the document is opened. This method is often used in phishing campaigns to deliver malware to victims.",
+    "aliases": [
+      "Macro Exploitation",
+      "Office Document Malware"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+        "phase_name": "delivery"
+      },
+      {
+        "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+        "phase_name": "execution"
+      }
+    ]
+  }
+]

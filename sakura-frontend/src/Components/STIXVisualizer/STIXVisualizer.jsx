@@ -68,6 +68,20 @@ const EntityDetails = ({ entity, stixBundle, onClose }) => {
     setRelatedEntities(related);
   }, [entity, stixBundle]);
 
+  // Helper function to format field values
+  const formatValue = (value) => {
+    if (Array.isArray(value)) {
+      return value.join(', ');
+    } else if (typeof value === 'object' && value !== null) {
+      return JSON.stringify(value, null, 2);
+    }
+    return value;
+  };
+
+  // Get all fields except those we handle specially
+  const specialFields = ['type', 'id', 'created', 'modified', 'name', 'description', 'aliases', 'kill_chain_phases'];
+  const additionalFields = Object.entries(entity).filter(([key]) => !specialFields.includes(key));
+
   return (
     <Box
       p={6}
@@ -95,37 +109,60 @@ const EntityDetails = ({ entity, stixBundle, onClose }) => {
         </HStack>
         
         <VStack align="stretch" spacing={2}>
-          <Text><strong>Name:</strong> {entity.name}</Text>
-          <Text><strong>ID:</strong> {entity.id}</Text>
-          <Text><strong>Created:</strong> {entity.created}</Text>
-          <Text><strong>Modified:</strong> {entity.modified}</Text>
-          <Text><strong>Description:</strong> {entity.description || 'N/A'}</Text>
-          
-          {entity.aliases && (
-            <>
-              <Text><strong>Aliases:</strong></Text>
-              <Text>{entity.aliases.join(', ')}</Text>
-            </>
+          {/* Basic Information */}
+          <Box borderWidth="1px" borderRadius="md" p={3}>
+            <Text fontWeight="bold" mb={2}>Basic Information</Text>
+            <Text><strong>Name:</strong> {entity.name || 'N/A'}</Text>
+            <Text><strong>ID:</strong> {entity.id}</Text>
+            <Text><strong>Created:</strong> {new Date(entity.created).toLocaleString()}</Text>
+            <Text><strong>Modified:</strong> {new Date(entity.modified).toLocaleString()}</Text>
+            <Text><strong>Description:</strong> {entity.description || 'N/A'}</Text>
+          </Box>
+
+          {/* Aliases */}
+          {entity.aliases && entity.aliases.length > 0 && (
+            <Box borderWidth="1px" borderRadius="md" p={3}>
+              <Text fontWeight="bold" mb={2}>Aliases</Text>
+              {entity.aliases.map((alias, idx) => (
+                <Text key={idx}>• {alias}</Text>
+              ))}
+            </Box>
           )}
 
-          <Text><strong>Related Entities:</strong></Text>
-          <Text>
-            {relatedEntities.map((related, index) => (
-              <Text key={index}>
-                {related.name} ({related.type}) - {related.relationship} ({related.direction})
-              </Text>
-            ))}
-          </Text>
+          {/* Kill Chain Phases */}
+          {entity.kill_chain_phases && entity.kill_chain_phases.length > 0 && (
+            <Box borderWidth="1px" borderRadius="md" p={3}>
+              <Text fontWeight="bold" mb={2}>Kill Chain Phases</Text>
+              {entity.kill_chain_phases.map((phase, idx) => (
+                <Text key={idx}>
+                  • {phase.kill_chain_name}: {phase.phase_name}
+                </Text>
+              ))}
+            </Box>
+          )}
 
-          {entity.kill_chain_phases && (
-            <>
-              <Text><strong>Kill Chain Phases:</strong></Text>
-              <Text>
-                {entity.kill_chain_phases.map((phase, index) => (
-                  <Text key={index}>{phase.kill_chain_name}: {phase.phase_name}</Text>
-                ))}
-              </Text>
-            </>
+          {/* Related Entities */}
+          {relatedEntities.length > 0 && (
+            <Box borderWidth="1px" borderRadius="md" p={3}>
+              <Text fontWeight="bold" mb={2}>Related Entities</Text>
+              {relatedEntities.map((related, idx) => (
+                <Text key={idx}>
+                  • {related.name} ({related.type}) - {related.relationship} ({related.direction})
+                </Text>
+              ))}
+            </Box>
+          )}
+
+          {/* Additional Fields */}
+          {additionalFields.length > 0 && (
+            <Box borderWidth="1px" borderRadius="md" p={3}>
+              <Text fontWeight="bold" mb={2}>Additional Properties</Text>
+              {additionalFields.map(([key, value]) => (
+                <Text key={key}>
+                  <strong>{key.replace(/_/g, ' ')}:</strong> {formatValue(value)}
+                </Text>
+              ))}
+            </Box>
           )}
         </VStack>
       </VStack>

@@ -1,0 +1,644 @@
+{
+    "type": "bundle",
+    "id": "bundle--dd1b5865-f3ae-4414-8828-231722b90018",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-01T14:30:00.000Z",
+            "modified": "2023-10-01T14:30:00.000Z",
+            "name": "Global Defense Corp.",
+            "description": "Global Defense Corp. specializes in providing advanced cybersecurity solutions and threat intelligence services to government and military organizations worldwide.",
+            "roles": [
+                "cybersecurity-provider",
+                "threat-analyst"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "defense",
+                "government"
+            ],
+            "contact_information": "contact@globaldefense.example.com"
+        },
+        {
+            "type": "location",
+            "spec_version": "2.1",
+            "id": "location--3f2b9f91-9a8b-4a6a-8e2d-1a0d4f5c5b11",
+            "created": "2023-10-01T14:45:00.000Z",
+            "modified": "2023-10-01T14:45:00.000Z",
+            "name": "Washington D.C., USA",
+            "description": "The capital city of the United States, known for its significant historical landmarks and government institutions.",
+            "latitude": 38.8951,
+            "longitude": -77.0364,
+            "precision": 0.1,
+            "region": "north-america",
+            "country": "US",
+            "administrative_area": "District of Columbia",
+            "city": "Washington",
+            "street_address": "1600 Pennsylvania Ave NW",
+            "postal_code": "20500"
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e",
+            "created": "2023-10-10T12:00:00.000Z",
+            "modified": "2023-10-10T12:00:00.000Z",
+            "name": "CVE-2023-5678",
+            "description": "A SQL injection vulnerability in the customer management module of ABC Retail Software versions 1.0 to 1.5 allows remote attackers to execute arbitrary SQL commands via crafted HTTP requests.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-5678"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a0b83bba-7d2f-4e3c-8c3d-6f2c1e5a0dc5",
+            "created": "2023-10-01T15:30:00.000Z",
+            "modified": "2023-10-01T15:30:00.000Z",
+            "name": "Credential Dumping",
+            "description": "Credential Dumping is the act of obtaining account login and password information from the operating system and software applications. This can be achieved through various methods, such as using tools like Mimikatz to extract credentials from memory or utilizing Windows API calls.",
+            "aliases": [
+                "Credential Harvesting",
+                "Credential Extraction"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "installation"
+                }
+            ]
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--f1a3b3e9-63e2-4c9b-95e3-5c7e12345678",
+            "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "created": "2023-10-12T15:00:00.000Z",
+            "modified": "2023-10-12T15:00:00.000Z",
+            "name": "Patch Vulnerability CVE-2023-9101",
+            "description": "Apply the security patch released for CVE-2023-9101 to mitigate the cross-site scripting vulnerability in the web interface of XYZ File Sharing Service."
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-01T10:00:00.000Z",
+            "modified": "2023-10-01T10:00:00.000Z",
+            "name": "Phantom Menace",
+            "description": "Phantom Menace is an elusive cyber criminal group known for targeting financial institutions through sophisticated phishing campaigns and malware distribution.",
+            "threat_actor_types": [
+                "criminal",
+                "hacktivist"
+            ],
+            "aliases": [
+                "Specter Hackers",
+                "Ghost Syndicate"
+            ],
+            "roles": [
+                "financial fraudster",
+                "data thief"
+            ],
+            "goals": [
+                "financial gain",
+                "identity theft"
+            ],
+            "sophistication": "intermediate",
+            "resource_level": "individual",
+            "primary_motivation": "monetary",
+            "secondary_motivations": [
+                "disruption",
+                "exposing vulnerabilities"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77",
+            "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "created": "2023-10-12T10:00:00.000Z",
+            "modified": "2023-10-12T10:00:00.000Z",
+            "name": "Suspicious Domain for Phishing Campaign",
+            "description": "This domain has been linked to a phishing campaign targeting financial institutions. Users attempting to access this domain may be at risk of credential theft.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value = 'secure-login-bank.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-12T10:00:00Z",
+            "valid_until": "2024-10-12T10:00:00Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                }
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--e9f3a2b1-9176-4c5f-8d0f-13c9f30c98d2",
+            "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-15T14:00:00.000Z",
+            "modified": "2023-10-15T14:00:00.000Z",
+            "name": "Malicious Credential Harvesting Campaign by Red Tigers",
+            "description": "This report analyzes a series of credential harvesting attacks attributed to the Red Tigers group, focusing on their methods and targeted sectors.",
+            "report_types": [
+                "threat-actor",
+                "campaign"
+            ],
+            "published": "2023-10-15T16:00:00Z",
+            "object_refs": [
+                "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+                "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234",
+                "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+                "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234"
+            ]
+        },
+        {
+            "type": "note",
+            "spec_version": "2.1",
+            "id": "note--5b7a1e6c-8e56-4b32-9c5b-9d0f1b4a2c3e",
+            "created": "2023-10-15T12:00:00.000Z",
+            "modified": "2023-10-15T12:00:00.000Z",
+            "abstract": "This note provides insights into the recent activities of the Phantom Menace threat actor group and their phishing tactics against financial institutions.",
+            "content": "The Phantom Menace group has been observed employing increasingly sophisticated phishing tactics targeting various financial institutions. Recent campaigns have utilized domains that closely mimic legitimate banking websites, aiming to trick users into divulging sensitive information. Analysts should remain vigilant and utilize the associated indicators to mitigate potential risks. The suspicious domain 'secure-login-bank.com' has been linked to these efforts and is included for reference. Continuous monitoring of these activities is crucial as the group adapts their strategies to evade detection.",
+            "authors": [
+                "Jane Doe",
+                "John Smith"
+            ],
+            "object_refs": [
+                "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+                "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--b1a5e5c5-4b5d-4d8c-bf65-8fc5e5c5a1f1",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-15T09:00:00.000Z",
+            "modified": "2023-10-15T09:00:00.000Z",
+            "name": "Silent Specter",
+            "description": "Silent Specter is an advanced persistent threat (APT) group focusing on espionage against government and military organizations in Eastern Europe. They utilize sophisticated malware and social engineering techniques.",
+            "aliases": [
+                "APT28",
+                "Fancy Bear"
+            ],
+            "first_seen": "2021-04-10T00:00:00Z",
+            "last_seen": "2023-10-14T23:59:59Z",
+            "goals": [
+                "intelligence gathering",
+                "disruption of military operations"
+            ],
+            "resource_level": "state-sponsored",
+            "primary_motivation": "political-gain",
+            "secondary_motivations": [
+                "economic-gain"
+            ]
+        },
+        {
+            "type": "grouping",
+            "spec_version": "2.1",
+            "id": "grouping--e8f9d4e2-2c03-4b67-b1b9-914c0dc6e6f5",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-20T09:30:00.000Z",
+            "modified": "2023-10-20T09:30:00.000Z",
+            "name": "Phantom Menace Phishing Campaigns",
+            "description": "A grouping of relevant notes and indicators related to the phishing tactics employed by the Phantom Menace threat actor group against financial institutions.",
+            "context": "This grouping captures insights and indicators relevant to recent phishing campaigns by the Phantom Menace group, focusing on their evolving tactics and targeted sectors.",
+            "object_refs": [
+                "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77",
+                "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e",
+                "location--3f2b9f91-9a8b-4a6a-8e2d-1a0d4f5c5b11",
+                "note--5b7a1e6c-8e56-4b32-9c5b-9d0f1b4a2c3e"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9",
+            "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-10T12:00:00.000Z",
+            "modified": "2023-10-10T12:00:00.000Z",
+            "name": "Ransomware XYZ",
+            "description": "Ransomware XYZ is a highly aggressive ransomware variant that encrypts user files and demands payment in cryptocurrency for decryption keys.",
+            "malware_types": [
+                "ransomware"
+            ],
+            "is_family": false,
+            "aliases": [
+                "XYZ Locker",
+                "CryptoXYZ"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "installation"
+                }
+            ],
+            "architecture_execution_envs": [
+                "x86",
+                "x64"
+            ],
+            "implementation_languages": [
+                "C#",
+                "Java"
+            ],
+            "capabilities": [
+                "file encryption",
+                "data exfiltration",
+                "ransom demand"
+            ]
+        },
+        {
+            "type": "tool",
+            "spec_version": "2.1",
+            "id": "tool--c1d6b5e9-7ba7-4c23-bd84-63af8fefb4c6",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-01T10:00:00.000Z",
+            "modified": "2023-10-01T10:00:00.000Z",
+            "name": "Phantom Injector",
+            "description": "Phantom Injector is a sophisticated tool used for injecting malicious code into legitimate applications, primarily utilized in advanced persistent threat (APT) operations.",
+            "tool_types": [
+                "exploitation-tool"
+            ],
+            "aliases": [
+                "PhantomInject"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                }
+            ],
+            "tool_version": "1.0.0"
+        },
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--3f3b5d91-53cd-4932-86b3-6c3e1b8f12f4",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-15T10:00:00.000Z",
+            "modified": "2023-10-15T10:00:00.000Z",
+            "name": "Phantom Menace Phishing Domain",
+            "description": "A domain used by the Phantom Menace group for phishing campaigns targeting financial institutions. This infrastructure is associated with fraudulent emails and malicious website hosting.",
+            "infrastructure_types": [
+                "phishing",
+                "web"
+            ],
+            "aliases": [
+                "pm-phishing.com",
+                "phantomfin.tech"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                }
+            ],
+            "last_seen": "2023-10-14T23:59:59Z",
+            "first_seen": "2023-09-10T00:00:00Z"
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92",
+            "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "created": "2023-10-15T10:00:00.000Z",
+            "modified": "2023-10-15T10:00:00.000Z",
+            "name": "Operation Nightshade",
+            "description": "A series of cyberattacks targeting healthcare facilities across North America, aiming to disrupt services and steal patient data.",
+            "aliases": [
+                "OpNightshade",
+                "Healthcare Disruption Campaign"
+            ],
+            "first_seen": "2023-08-01T00:00:00Z",
+            "last_seen": "2023-10-10T23:59:59Z",
+            "objective": "Compromise healthcare systems to extract sensitive patient information for sale on the dark web."
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--00eab035-6ffd-42ab-9fd7-a0b0f172a849",
+            "created": "2025-03-03T16:24:54.215597Z",
+            "modified": "2025-03-03T16:24:54.215597Z",
+            "relationship_type": "targets",
+            "description": "Global Defense Corp. specifically targets Operation Nightshade",
+            "source_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "target_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--880242dc-aea3-446f-8d42-0621d7137261",
+            "created": "2025-03-03T16:24:54.215597Z",
+            "modified": "2025-03-03T16:24:54.215597Z",
+            "relationship_type": "attributed-to",
+            "description": "Global Defense Corp. is attributed to Phantom Menace",
+            "source_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1a08f2ac-1332-4909-b785-b100b9f3f9d2",
+            "created": "2025-03-03T16:24:54.215597Z",
+            "modified": "2025-03-03T16:24:54.215597Z",
+            "relationship_type": "attributed-to",
+            "description": "Global Defense Corp. is attributed to Operation Nightshade",
+            "source_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "target_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c0ab6010-a64e-47d5-b619-898194f78a34",
+            "created": "2025-03-03T16:24:54.215597Z",
+            "modified": "2025-03-03T16:24:54.215597Z",
+            "relationship_type": "targets",
+            "description": "Washington D.C., USA focuses attacks on Operation Nightshade",
+            "source_ref": "location--3f2b9f91-9a8b-4a6a-8e2d-1a0d4f5c5b11",
+            "target_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ff09304c-cbab-4bcc-9f93-0848b60deced",
+            "created": "2025-03-03T16:24:54.215597Z",
+            "modified": "2025-03-03T16:24:54.215597Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-5678 focuses attacks on Credential Dumping",
+            "source_ref": "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e",
+            "target_ref": "attack-pattern--a0b83bba-7d2f-4e3c-8c3d-6f2c1e5a0dc5"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--60059b05-aafd-4e60-9508-8ff295bc7a55",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-5678 focuses attacks on Ransomware XYZ",
+            "source_ref": "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e",
+            "target_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--999fd409-0550-41d0-9064-01316c1eac7f",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-5678 focuses attacks on Phantom Menace",
+            "source_ref": "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fab366d1-6c8c-4536-9c3a-be94ff9e04b0",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "mitigates",
+            "description": "Patch Vulnerability CVE-2023-9101 can be used to counter Suspicious Domain for Phishing Campaign",
+            "source_ref": "course-of-action--f1a3b3e9-63e2-4c9b-95e3-5c7e12345678",
+            "target_ref": "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--49b30421-c977-4043-80b9-417415b8da13",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "mitigates",
+            "description": "Patch Vulnerability CVE-2023-9101 is effective against Credential Dumping",
+            "source_ref": "course-of-action--f1a3b3e9-63e2-4c9b-95e3-5c7e12345678",
+            "target_ref": "attack-pattern--a0b83bba-7d2f-4e3c-8c3d-6f2c1e5a0dc5"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--67a828b2-2cbc-432d-8d9c-73350663807c",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "uses",
+            "description": "Phantom Menace leverages Credential Dumping for their activities",
+            "source_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+            "target_ref": "attack-pattern--a0b83bba-7d2f-4e3c-8c3d-6f2c1e5a0dc5"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--843b620a-8905-479b-a156-57414bd667b2",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "indicates",
+            "description": "Suspicious Domain for Phishing Campaign provides evidence of Phantom Menace",
+            "source_ref": "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0c15ff93-19c7-4b31-8526-ab07942ac7a5",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "indicates",
+            "description": "Suspicious Domain for Phishing Campaign provides evidence of Silent Specter",
+            "source_ref": "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77",
+            "target_ref": "intrusion-set--b1a5e5c5-4b5d-4d8c-bf65-8fc5e5c5a1f1"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bfeae0e0-064f-4413-be21-543012c47544",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "related-to",
+            "description": "opinion related-to Phantom Menace",
+            "source_ref": "opinion--1f2d3c4b-5e67-8e9a-a0b1-2c3d4e5f6789",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0404d31a-9929-47d9-afbe-8d7dd9433dfb",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "related-to",
+            "description": "opinion related-to Global Defense Corp.",
+            "source_ref": "opinion--1f2d3c4b-5e67-8e9a-a0b1-2c3d4e5f6789",
+            "target_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--da7039ea-ec11-4711-bf6b-5ed2515a39f3",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "attributed-to",
+            "description": "Silent Specter is attributed to Phantom Menace",
+            "source_ref": "intrusion-set--b1a5e5c5-4b5d-4d8c-bf65-8fc5e5c5a1f1",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0bbe238f-e508-47ad-b002-e5d2313409fb",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "part-of",
+            "description": "Silent Specter part-of Operation Nightshade",
+            "source_ref": "intrusion-set--b1a5e5c5-4b5d-4d8c-bf65-8fc5e5c5a1f1",
+            "target_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0b1fe3ec-8875-41b2-99d4-13687d4d7810",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "exploits",
+            "description": "Ransomware XYZ leverages CVE-2023-5678 as an attack vector",
+            "source_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9",
+            "target_ref": "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fbeb6139-f8a3-44b0-8525-79b6d43277de",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "originates-from",
+            "description": "Ransomware XYZ originates-from Operation Nightshade",
+            "source_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9",
+            "target_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--78a3b11c-1641-4c44-9962-f2a8a34e3272",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "authored-by",
+            "description": "Ransomware XYZ authored-by Phantom Menace",
+            "source_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--889119cf-17cd-4cce-9cc1-200d125fef11",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "analysis-of",
+            "description": "malware-analysis analysis-of Ransomware XYZ",
+            "source_ref": "malware-analysis--b1f2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6",
+            "target_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e86a57f2-8e64-467f-a0f7-49c401f9568c",
+            "created": "2025-03-03T16:24:54.216597Z",
+            "modified": "2025-03-03T16:24:54.216597Z",
+            "relationship_type": "static-analysis-of",
+            "description": "malware-analysis static-analysis-of Ransomware XYZ",
+            "source_ref": "malware-analysis--b1f2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6",
+            "target_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e58951f0-5c2f-4a99-abe0-6d840cbbde27",
+            "created": "2025-03-03T16:24:54.217596Z",
+            "modified": "2025-03-03T16:24:54.217596Z",
+            "relationship_type": "characterizes",
+            "description": "malware-analysis characterizes Ransomware XYZ",
+            "source_ref": "malware-analysis--b1f2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6",
+            "target_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5d07d9c1-ee6b-41a8-85cf-9fb9e468e630",
+            "created": "2025-03-03T16:24:54.217596Z",
+            "modified": "2025-03-03T16:24:54.217596Z",
+            "relationship_type": "uses",
+            "description": "Phantom Injector utilizes Phantom Menace in their operations",
+            "source_ref": "tool--c1d6b5e9-7ba7-4c23-bd84-63af8fefb4c6",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--63856fb2-9a05-4f8b-b54a-13fd1c670f87",
+            "created": "2025-03-03T16:24:54.217596Z",
+            "modified": "2025-03-03T16:24:54.217596Z",
+            "relationship_type": "hosts",
+            "description": "Phantom Menace Phishing Domain hosts Phantom Injector",
+            "source_ref": "infrastructure--3f3b5d91-53cd-4932-86b3-6c3e1b8f12f4",
+            "target_ref": "tool--c1d6b5e9-7ba7-4c23-bd84-63af8fefb4c6"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--db142524-d665-4d53-a458-68e047e3f37d",
+            "created": "2025-03-03T16:24:54.217596Z",
+            "modified": "2025-03-03T16:24:54.217596Z",
+            "relationship_type": "hosts",
+            "description": "Phantom Menace Phishing Domain hosts Ransomware XYZ",
+            "source_ref": "infrastructure--3f3b5d91-53cd-4932-86b3-6c3e1b8f12f4",
+            "target_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7c2836ee-dfd1-4c13-8ac3-9883dd57b3d8",
+            "created": "2025-03-03T16:24:54.217596Z",
+            "modified": "2025-03-03T16:24:54.217596Z",
+            "relationship_type": "targets",
+            "description": "Operation Nightshade focuses attacks on Global Defense Corp.",
+            "source_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92",
+            "target_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6f6fadc4-45b3-4d5f-a5ad-d65b4bbe8b59",
+            "created": "2025-03-03T16:24:54.217596Z",
+            "modified": "2025-03-03T16:24:54.217596Z",
+            "relationship_type": "attributed-to",
+            "description": "Operation Nightshade is believed to be operated by Silent Specter",
+            "source_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92",
+            "target_ref": "intrusion-set--b1a5e5c5-4b5d-4d8c-bf65-8fc5e5c5a1f1"
+        }
+    ]
+}

@@ -1,0 +1,740 @@
+{
+    "type": "bundle",
+    "id": "bundle--725651bc-9d6d-4a7f-b034-b98017d65ae9",
+    "objects": [
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--b9c4e0a2-3c93-4a2b-81ee-67fbbf2a5c0d",
+            "created": "2023-10-01T10:00:00.000Z",
+            "modified": "2023-10-01T10:00:00.000Z",
+            "name": "CVE-2023-4567",
+            "description": "A SQL injection vulnerability in the user authentication module of ABC Web Application versions 1.0 to 1.2 allows attackers to execute arbitrary SQL commands via crafted input in the login form.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-4567"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--f4d1e0b2-9c75-49b2-8eb1-9f1c4e1e9a5f",
+            "created": "2023-10-03T14:30:00.000Z",
+            "modified": "2023-10-03T14:30:00.000Z",
+            "name": "CVE-2023-7890",
+            "description": "A cross-site scripting (XSS) vulnerability in the comment section of XYZ Blogging Platform versions 3.1 to 3.4 allows remote attackers to inject arbitrary web script or HTML via a crafted comment.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-7890"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--a8c5e5f6-1a3e-4c8a-9b2b-2c3d8e3f5b1a",
+            "created": "2023-09-25T11:15:00.000Z",
+            "modified": "2023-09-25T11:15:00.000Z",
+            "name": "CVE-2023-1122",
+            "description": "A remote code execution vulnerability in the file upload feature of DEF File Management System versions 4.0 to 4.3 allows attackers to upload and execute malicious files on the server.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-1122"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--c3e4e5f6-7a8b-4c9a-a8d7-5b9c2c3e4f5a",
+            "created": "2023-09-30T13:45:00.000Z",
+            "modified": "2023-09-30T13:45:00.000Z",
+            "name": "CVE-2023-3344",
+            "description": "An authentication bypass vulnerability in the user management feature of GHI E-commerce Platform versions 1.5 to 1.7 allows unauthorized users to gain access to user accounts via API calls without proper authentication.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-3344"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--d4e5e6f7-8a9b-4d0c-b1e2-4d3f5e6a7f8b",
+            "created": "2023-10-02T08:00:00.000Z",
+            "modified": "2023-10-02T08:00:00.000Z",
+            "name": "CVE-2023-5678",
+            "description": "A denial-of-service vulnerability in the network services of JKL Network Router versions 2.5 to 3.0 allows attackers to send specially crafted packets to exhaust system resources, resulting in service outages.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-5678"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--e8a1c9b7-2c43-4e15-ae0b-e8f6b7f8d2a1",
+            "created": "2023-10-01T14:30:00.000Z",
+            "modified": "2023-10-01T14:30:00.000Z",
+            "name": "CVE-2023-4567",
+            "description": "A SQL injection vulnerability in the user authentication module of WebAppPro versions 1.0 to 1.3 allows remote attackers to gain unauthorized access to user accounts by injecting malicious SQL queries via the login form.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-4567"
+                },
+                {
+                    "source_name": "securitytracker",
+                    "external_id": "1019446"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1b4d6c98-77e0-4c8c-9f1b-1b6e7e2d7b90",
+            "created": "2023-10-03T10:00:00.000Z",
+            "modified": "2023-10-03T10:00:00.000Z",
+            "name": "SQL Injection",
+            "description": "SQL Injection is a code injection technique that exploits a security vulnerability in an application's software by manipulating SQL queries. This can allow attackers to view data that they are not normally able to retrieve.",
+            "aliases": [
+                "SQLi",
+                "SQL Injection Attack"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f2c9e8b7-9e8c-4f39-b7f2-2e4e5f6c7d0a",
+            "created": "2023-10-03T11:15:00.000Z",
+            "modified": "2023-10-03T11:15:00.000Z",
+            "name": "Cross-Site Scripting (XSS)",
+            "description": "Cross-Site Scripting (XSS) is a vulnerability that allows attackers to inject malicious scripts into content from otherwise trusted websites. It can be used to steal cookies, session tokens, or other sensitive information.",
+            "aliases": [
+                "Stored XSS",
+                "Reflected XSS"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b7e6f7b8-0a4a-4a8c-a2f5-5d3e6b14c3b9",
+            "created": "2023-10-03T12:30:00.000Z",
+            "modified": "2023-10-03T12:30:00.000Z",
+            "name": "Credential Dumping",
+            "description": "Credential Dumping refers to techniques used by attackers to obtain account login and password information from operating systems and software applications. It often utilizes tools that extract credentials from memory or system files.",
+            "aliases": [
+                "Credential Harvesting",
+                "Password Dumping"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "credential_access"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--716c173b-e167-46ab-9ef5-c3f4aa7e7876",
+            "created": "2025-03-03T15:19:16.299814Z",
+            "modified": "2025-03-03T15:19:16.299814Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-4567 has been known to target Silver Serpent Collective",
+            "source_ref": "vulnerability--b9c4e0a2-3c93-4a2b-81ee-67fbbf2a5c0d",
+            "target_ref": "intrusion-set--f2d6b5e8-3a7d-4970-8b15-053bc8b9e820"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--af28411e-b637-4675-b2e1-2c5b62bd4032",
+            "created": "2025-03-03T15:19:16.299814Z",
+            "modified": "2025-03-03T15:19:16.299814Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-4567 focuses attacks on Malware Analyzer Pro",
+            "source_ref": "vulnerability--b9c4e0a2-3c93-4a2b-81ee-67fbbf2a5c0d",
+            "target_ref": "tool--b4f5f9c4-3c77-4a8c-94b7-bf124d0f8e16"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8794094a-9be0-477c-b91b-558cafde5a59",
+            "created": "2025-03-03T15:19:16.299814Z",
+            "modified": "2025-03-03T15:19:16.299814Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-7890 focuses attacks on PhishNet",
+            "source_ref": "vulnerability--f4d1e0b2-9c75-49b2-8eb1-9f1c4e1e9a5f",
+            "target_ref": "tool--1e9b2f5a-8de0-4d38-9f9e-6f12b8b6d2f2"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b60fecca-9ed2-43fb-94f8-e48ccb9f2ec8",
+            "created": "2025-03-03T15:19:16.299814Z",
+            "modified": "2025-03-03T15:19:16.299814Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-7890 specifically targets Credential Dumping",
+            "source_ref": "vulnerability--f4d1e0b2-9c75-49b2-8eb1-9f1c4e1e9a5f",
+            "target_ref": "attack-pattern--b7e6f7b8-0a4a-4a8c-a2f5-5d3e6b14c3b9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e3536f8a-c542-40c4-a40e-146ae96a7777",
+            "created": "2025-03-03T15:19:16.299814Z",
+            "modified": "2025-03-03T15:19:16.299814Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-7890 focuses attacks on Anunak",
+            "source_ref": "vulnerability--f4d1e0b2-9c75-49b2-8eb1-9f1c4e1e9a5f",
+            "target_ref": "threat-actor--4a2c6b77-7c92-4e4e-bb5b-4e7aadf8d3ed"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--01f53995-7de4-4d9b-9017-d9524326d67d",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-1122 has been known to target Agent Tesla",
+            "source_ref": "vulnerability--a8c5e5f6-1a3e-4c8a-9b2b-2c3d8e3f5b1a",
+            "target_ref": "malware--1e9a3c6b-cf38-4f96-9b3c-5c1d5e5a9b1e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8f3d9885-5eb7-4e66-8486-0db5dcc42ac3",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-1122 has been known to target Red Phoenix Team",
+            "source_ref": "vulnerability--a8c5e5f6-1a3e-4c8a-9b2b-2c3d8e3f5b1a",
+            "target_ref": "intrusion-set--a1c5b3c2-4d8e-4f0f-bd31-793f2821a4e1"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--de827bd5-8d42-456c-bed0-5b43a88a7f03",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "exploits",
+            "description": "CVE-2023-1122 leverages Dridex as an attack vector",
+            "source_ref": "vulnerability--a8c5e5f6-1a3e-4c8a-9b2b-2c3d8e3f5b1a",
+            "target_ref": "malware--4d5a9f2f-4d3c-4b42-a7f4-3d1e5c5c1f4e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1bd038c4-a7ca-4901-8a2b-64c75fb3ed2c",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-3344 has been known to target Charming Kitten",
+            "source_ref": "vulnerability--c3e4e5f6-7a8b-4c9a-a8d7-5b9c2c3e4f5a",
+            "target_ref": "threat-actor--2c0f8dcb-6c89-4d6b-9d48-4d0c1f7457a8"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c7daca02-d25e-42c1-8ca8-97a0cbcdaad5",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-3344 specifically targets Agent Tesla",
+            "source_ref": "vulnerability--c3e4e5f6-7a8b-4c9a-a8d7-5b9c2c3e4f5a",
+            "target_ref": "malware--1e9a3c6b-cf38-4f96-9b3c-5c1d5e5a9b1e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--65566632-1457-4f75-a6d7-b1b99cd22333",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-3344 specifically targets Malware Analyzer Pro",
+            "source_ref": "vulnerability--c3e4e5f6-7a8b-4c9a-a8d7-5b9c2c3e4f5a",
+            "target_ref": "tool--b4f5f9c4-3c77-4a8c-94b7-bf124d0f8e16"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--128f4f39-dcc2-4263-9d7c-fb927d9cd49f",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "mitigates",
+            "description": "CVE-2023-5678 is effective against Credential Storage Hardening",
+            "source_ref": "vulnerability--d4e5e6f7-8a9b-4d0c-b1e2-4d3f5e6a7f8b",
+            "target_ref": "course-of-action--f2f5a9b2-0e2e-4c7e-ae07-4f5c7e21e4d1"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d0593806-708f-45ef-b777-9fab3f35a04d",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "exploits",
+            "description": "CVE-2023-4567 exploits Agent Tesla to gain unauthorized access",
+            "source_ref": "vulnerability--e8a1c9b7-2c43-4e15-ae0b-e8f6b7f8d2a1",
+            "target_ref": "malware--1e9a3c6b-cf38-4f96-9b3c-5c1d5e5a9b1e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--eddf9d90-8bd5-4683-bedf-527883af57e1",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-4567 focuses attacks on Credential Dumping",
+            "source_ref": "vulnerability--e8a1c9b7-2c43-4e15-ae0b-e8f6b7f8d2a1",
+            "target_ref": "attack-pattern--b7e6f7b8-0a4a-4a8c-a2f5-5d3e6b14c3b9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c4539cb1-7e51-4ed7-b45a-2e9997cdfbb2",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "remediates",
+            "description": "Input Validation Implementation remediates Ransomware XYZ",
+            "source_ref": "course-of-action--c6b7a5f8-15c4-4e8e-9b9c-8d3a9c28a1b2",
+            "target_ref": "malware--2ce58c2f-5e96-4c3b-81b5-d9f77c6efc5b"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--497609b5-e3b5-4cea-b4c1-e62566ed72db",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "mitigates",
+            "description": "Input Validation Implementation is effective against SQL Injection",
+            "source_ref": "course-of-action--c6b7a5f8-15c4-4e8e-9b9c-8d3a9c28a1b2",
+            "target_ref": "attack-pattern--1b4d6c98-77e0-4c8c-9f1b-1b6e7e2d7b90"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9e8b274e-b64c-4e77-b454-df6a4ae3ac74",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "mitigates",
+            "description": "Input Validation Implementation can be used to counter Malware Analyzer Pro",
+            "source_ref": "course-of-action--c6b7a5f8-15c4-4e8e-9b9c-8d3a9c28a1b2",
+            "target_ref": "tool--b4f5f9c4-3c77-4a8c-94b7-bf124d0f8e16"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4e77a93c-6e2b-4838-9132-2b81c78e3b10",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "based-on",
+            "description": "Credential Storage Hardening based-on observed-data",
+            "source_ref": "course-of-action--f2f5a9b2-0e2e-4c7e-ae07-4f5c7e21e4d1",
+            "target_ref": "observed-data--d1f4e89b-2a7e-4a5f-8eb9-fb4c2c4c1e7e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ec770334-4b26-4d05-81c1-f7d7d30f9cae",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "mitigates",
+            "description": "Credential Storage Hardening helps prevent Credential Dumping",
+            "source_ref": "course-of-action--f2f5a9b2-0e2e-4c7e-ae07-4f5c7e21e4d1",
+            "target_ref": "attack-pattern--b7e6f7b8-0a4a-4a8c-a2f5-5d3e6b14c3b9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9ed43ee7-7df6-4c90-bb44-5034bf8470be",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "remediates",
+            "description": "Parameterized Queries Implementation remediates CVE-2023-5678",
+            "source_ref": "course-of-action--a3c0b3c1-83f0-4e80-8ab2-ecf1c6c8fb6f",
+            "target_ref": "vulnerability--d4e5e6f7-8a9b-4d0c-b1e2-4d3f5e6a7f8b"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bd646b30-cc85-42b0-a839-21682a2d0a79",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "mitigates",
+            "description": "Parameterized Queries Implementation can be used to counter Credential Dumping",
+            "source_ref": "course-of-action--a3c0b3c1-83f0-4e80-8ab2-ecf1c6c8fb6f",
+            "target_ref": "attack-pattern--b7e6f7b8-0a4a-4a8c-a2f5-5d3e6b14c3b9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f7f22e73-b500-4271-b142-2629ff3c8f07",
+            "created": "2025-03-03T15:19:16.300814Z",
+            "modified": "2025-03-03T15:19:16.300814Z",
+            "relationship_type": "remediates",
+            "description": "Parameterized Queries Implementation remediates CVE-2023-4567",
+            "source_ref": "course-of-action--a3c0b3c1-83f0-4e80-8ab2-ecf1c6c8fb6f",
+            "target_ref": "vulnerability--e8a1c9b7-2c43-4e15-ae0b-e8f6b7f8d2a1"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4452c346-392e-4720-b05e-711354ee0dc2",
+            "created": "2025-03-03T15:19:16.301813Z",
+            "modified": "2025-03-03T15:19:16.301813Z",
+            "relationship_type": "uses",
+            "description": "Lazarus Group leverages Cross-Site Scripting (XSS) for their activities",
+            "source_ref": "threat-actor--6d3f0e5b-1e3d-4c88-90a8-cd1c3f6b4f3d",
+            "target_ref": "attack-pattern--f2c9e8b7-9e8c-4f39-b7f2-2e4e5f6c7d0a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f8f94615-dee9-4df5-9502-5c8ef3fb4314",
+            "created": "2025-03-03T15:19:16.302814Z",
+            "modified": "2025-03-03T15:19:16.302814Z",
+            "relationship_type": "targets",
+            "description": "Charming Kitten specifically targets CVE-2023-3344",
+            "source_ref": "threat-actor--2c0f8dcb-6c89-4d6b-9d48-4d0c1f7457a8",
+            "target_ref": "vulnerability--c3e4e5f6-7a8b-4c9a-a8d7-5b9c2c3e4f5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--35fdbf40-b619-4712-a210-3e2e1f92d9cc",
+            "created": "2025-03-03T15:19:16.302814Z",
+            "modified": "2025-03-03T15:19:16.302814Z",
+            "relationship_type": "uses",
+            "description": "Cobalt Group has been observed using PhishNet",
+            "source_ref": "threat-actor--b9e4f6b4-4d1e-4b99-83f5-3c0e1cfcb7f2",
+            "target_ref": "tool--1e9b2f5a-8de0-4d38-9f9e-6f12b8b6d2f2"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ae0585a2-5a76-4d29-85a4-952231727b4b",
+            "created": "2025-03-03T15:19:16.302814Z",
+            "modified": "2025-03-03T15:19:16.302814Z",
+            "relationship_type": "targets",
+            "description": "Cobalt Group has been known to target CVE-2023-1122",
+            "source_ref": "threat-actor--b9e4f6b4-4d1e-4b99-83f5-3c0e1cfcb7f2",
+            "target_ref": "vulnerability--a8c5e5f6-1a3e-4c8a-9b2b-2c3d8e3f5b1a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--08801756-8652-4973-99d4-2c4735c53318",
+            "created": "2025-03-03T15:19:16.303814Z",
+            "modified": "2025-03-03T15:19:16.303814Z",
+            "relationship_type": "uses",
+            "description": "Anunak leverages RAT Toolkit for their activities",
+            "source_ref": "threat-actor--4a2c6b77-7c92-4e4e-bb5b-4e7aadf8d3ed",
+            "target_ref": "tool--c8af4d3c-9c8a-4a89-bf8e-8e9b5b8e7e56"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d41cd43d-6806-4953-8a06-edf3817723fa",
+            "created": "2025-03-03T15:19:16.303814Z",
+            "modified": "2025-03-03T15:19:16.303814Z",
+            "relationship_type": "uses",
+            "description": "Anunak utilizes Credential Dumping in their operations",
+            "source_ref": "threat-actor--4a2c6b77-7c92-4e4e-bb5b-4e7aadf8d3ed",
+            "target_ref": "attack-pattern--b7e6f7b8-0a4a-4a8c-a2f5-5d3e6b14c3b9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1b1c747b-292a-4f2e-a2a5-3e45992eb52a",
+            "created": "2025-03-03T15:19:16.303814Z",
+            "modified": "2025-03-03T15:19:16.303814Z",
+            "relationship_type": "exploits",
+            "description": "Agent Tesla leverages CVE-2023-3344 as an attack vector",
+            "source_ref": "malware--1e9a3c6b-cf38-4f96-9b3c-5c1d5e5a9b1e",
+            "target_ref": "vulnerability--c3e4e5f6-7a8b-4c9a-a8d7-5b9c2c3e4f5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e3a8ec6f-3dbf-4e11-a27e-4d15a96defaa",
+            "created": "2025-03-03T15:19:16.303814Z",
+            "modified": "2025-03-03T15:19:16.303814Z",
+            "relationship_type": "authored-by",
+            "description": "Agent Tesla authored-by Charming Kitten",
+            "source_ref": "malware--1e9a3c6b-cf38-4f96-9b3c-5c1d5e5a9b1e",
+            "target_ref": "threat-actor--2c0f8dcb-6c89-4d6b-9d48-4d0c1f7457a8"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1b669468-e93f-4e52-9828-a7c4b250d73b",
+            "created": "2025-03-03T15:19:16.303814Z",
+            "modified": "2025-03-03T15:19:16.303814Z",
+            "relationship_type": "uses",
+            "description": "Agent Tesla utilizes NetRecon in their operations",
+            "source_ref": "malware--1e9a3c6b-cf38-4f96-9b3c-5c1d5e5a9b1e",
+            "target_ref": "tool--4b2c3e6a-5c7f-4e86-a9af-ec20f7b8c1e8"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5221b793-436a-468e-8018-d00a95b07956",
+            "created": "2025-03-03T15:19:16.303814Z",
+            "modified": "2025-03-03T15:19:16.303814Z",
+            "relationship_type": "originates-from",
+            "description": "Ransomware XYZ originates-from Operation Silver Serpent",
+            "source_ref": "malware--2ce58c2f-5e96-4c3b-81b5-d9f77c6efc5b",
+            "target_ref": "campaign--f7c1c8a3-1b2c-4e7f-ae77-8bcf12c302c1"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--aa706453-2797-44ca-941c-8e291d19567b",
+            "created": "2025-03-03T15:19:16.303814Z",
+            "modified": "2025-03-03T15:19:16.303814Z",
+            "relationship_type": "exploits",
+            "description": "Ransomware XYZ exploits CVE-2023-4567 to gain unauthorized access",
+            "source_ref": "malware--2ce58c2f-5e96-4c3b-81b5-d9f77c6efc5b",
+            "target_ref": "vulnerability--e8a1c9b7-2c43-4e15-ae0b-e8f6b7f8d2a1"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--03f5a16b-3d36-4dcc-8f61-46676b1c2405",
+            "created": "2025-03-03T15:19:16.303814Z",
+            "modified": "2025-03-03T15:19:16.303814Z",
+            "relationship_type": "uses",
+            "description": "QakBot leverages NetRecon for their activities",
+            "source_ref": "malware--3b1a7c93-3c72-4a0e-bbfa-49e1d9b1a7c1",
+            "target_ref": "tool--4b2c3e6a-5c7f-4e86-a9af-ec20f7b8c1e8"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c038276a-9d9f-4898-8ea9-77d55fdab5d4",
+            "created": "2025-03-03T15:19:16.303814Z",
+            "modified": "2025-03-03T15:19:16.303814Z",
+            "relationship_type": "authored-by",
+            "description": "QakBot authored-by Fancy Bear",
+            "source_ref": "malware--3b1a7c93-3c72-4a0e-bbfa-49e1d9b1a7c1",
+            "target_ref": "threat-actor--5f5c6662-6a87-4d86-9e44-ae6c8b79e6e9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--419ecfd3-0ba3-488a-be4b-2eb1fc841554",
+            "created": "2025-03-03T15:19:16.303814Z",
+            "modified": "2025-03-03T15:19:16.303814Z",
+            "relationship_type": "exploits",
+            "description": "QakBot leverages CVE-2023-4567 as an attack vector",
+            "source_ref": "malware--3b1a7c93-3c72-4a0e-bbfa-49e1d9b1a7c1",
+            "target_ref": "vulnerability--e8a1c9b7-2c43-4e15-ae0b-e8f6b7f8d2a1"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--47696f07-adf9-415b-bc37-e3fd154fdc57",
+            "created": "2025-03-03T15:19:16.303814Z",
+            "modified": "2025-03-03T15:19:16.303814Z",
+            "relationship_type": "authored-by",
+            "description": "Dridex authored-by Fancy Bear",
+            "source_ref": "malware--4d5a9f2f-4d3c-4b42-a7f4-3d1e5c5c1f4e",
+            "target_ref": "threat-actor--5f5c6662-6a87-4d86-9e44-ae6c8b79e6e9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c853a278-07d7-436a-bc4e-5f6c9424c0e2",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "uses",
+            "description": "Dridex has been observed using PhishNet",
+            "source_ref": "malware--4d5a9f2f-4d3c-4b42-a7f4-3d1e5c5c1f4e",
+            "target_ref": "tool--1e9b2f5a-8de0-4d38-9f9e-6f12b8b6d2f2"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--03585f90-82c7-4f9d-97e5-ec05710306af",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "uses",
+            "description": "PhishNet leverages Dridex for their activities",
+            "source_ref": "tool--1e9b2f5a-8de0-4d38-9f9e-6f12b8b6d2f2",
+            "target_ref": "malware--4d5a9f2f-4d3c-4b42-a7f4-3d1e5c5c1f4e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5e4a8f20-cd91-4211-adbf-67489bf56da1",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "uses",
+            "description": "Malware Analyzer Pro has been observed using Agent Tesla",
+            "source_ref": "tool--b4f5f9c4-3c77-4a8c-94b7-bf124d0f8e16",
+            "target_ref": "malware--1e9a3c6b-cf38-4f96-9b3c-5c1d5e5a9b1e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8c8c05e3-6d9d-4d7d-9db8-3d56d7516eb7",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "uses",
+            "description": "NetRecon has been observed using Fancy Bear",
+            "source_ref": "tool--4b2c3e6a-5c7f-4e86-a9af-ec20f7b8c1e8",
+            "target_ref": "threat-actor--5f5c6662-6a87-4d86-9e44-ae6c8b79e6e9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b60f6c48-49ef-43c1-922b-022caae8dad0",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "uses",
+            "description": "RAT Toolkit utilizes Cobalt Group in their operations",
+            "source_ref": "tool--c8af4d3c-9c8a-4a89-bf8e-8e9b5b8e7e56",
+            "target_ref": "threat-actor--b9e4f6b4-4d1e-4b99-83f5-3c0e1cfcb7f2"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a2372fc7-fed0-4687-ba47-432161fefd63",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "uses",
+            "description": "RAT Toolkit leverages Lazarus Group for their activities",
+            "source_ref": "tool--c8af4d3c-9c8a-4a89-bf8e-8e9b5b8e7e56",
+            "target_ref": "threat-actor--6d3f0e5b-1e3d-4c88-90a8-cd1c3f6b4f3d"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c2fbea18-336b-43dd-9f7b-4bec57c7884d",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "attributed-to",
+            "description": "Operation Silver Serpent is connected to Charming Kitten",
+            "source_ref": "campaign--f7c1c8a3-1b2c-4e7f-ae77-8bcf12c302c1",
+            "target_ref": "threat-actor--2c0f8dcb-6c89-4d6b-9d48-4d0c1f7457a8"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4623befe-9bcf-49dc-bb22-d1201afddd79",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "uses",
+            "description": "Operation Phishing Blitz leverages Dridex for their activities",
+            "source_ref": "campaign--c9f4a2d2-57e8-4c1a-97c0-8c2c5ddc083a",
+            "target_ref": "malware--4d5a9f2f-4d3c-4b42-a7f4-3d1e5c5c1f4e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--590cfb6e-4fd6-4804-be8b-ed826ce47619",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "attributed-to",
+            "description": "Operation Phishing Blitz is attributed to Charming Kitten",
+            "source_ref": "campaign--c9f4a2d2-57e8-4c1a-97c0-8c2c5ddc083a",
+            "target_ref": "threat-actor--2c0f8dcb-6c89-4d6b-9d48-4d0c1f7457a8"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8ae8c7e4-accc-4754-93e8-887abef53a46",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "indicates",
+            "description": "Compromised Email Address for Operation Silver Serpent suggests the presence of Red Phoenix Team",
+            "source_ref": "indicator--b8eaf7cf-9b4e-4b3e-bc33-0a6f3e207c72",
+            "target_ref": "intrusion-set--a1c5b3c2-4d8e-4f0f-bd31-793f2821a4e1"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b69ef35d-731b-40d8-b8df-9b9d61049907",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "indicates",
+            "description": "Malicious URL for Operation Phishing Blitz suggests the presence of Charming Kitten",
+            "source_ref": "indicator--d2f8e3e1-abc9-4b1b-9e34-2b7d9f1b242a",
+            "target_ref": "threat-actor--2c0f8dcb-6c89-4d6b-9d48-4d0c1f7457a8"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e73516e8-0f9b-4709-bf46-478b5afe56b0",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "attributed-to",
+            "description": "Red Phoenix Team is connected to Fancy Bear",
+            "source_ref": "intrusion-set--a1c5b3c2-4d8e-4f0f-bd31-793f2821a4e1",
+            "target_ref": "threat-actor--5f5c6662-6a87-4d86-9e44-ae6c8b79e6e9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5143f8d8-0da7-42f3-916f-feb8940694b3",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "part-of",
+            "description": "Red Phoenix Team part-of Operation Phishing Blitz",
+            "source_ref": "intrusion-set--a1c5b3c2-4d8e-4f0f-bd31-793f2821a4e1",
+            "target_ref": "campaign--c9f4a2d2-57e8-4c1a-97c0-8c2c5ddc083a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fed4617b-e688-4676-9808-9c0639e76e2d",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "attributed-to",
+            "description": "Red Phoenix Team is connected to Charming Kitten",
+            "source_ref": "intrusion-set--a1c5b3c2-4d8e-4f0f-bd31-793f2821a4e1",
+            "target_ref": "threat-actor--2c0f8dcb-6c89-4d6b-9d48-4d0c1f7457a8"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f31500cc-0b29-4b16-8f07-c2f470daa1c4",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "attributed-to",
+            "description": "Silver Serpent Collective is connected to Fancy Bear",
+            "source_ref": "intrusion-set--f2d6b5e8-3a7d-4970-8b15-053bc8b9e820",
+            "target_ref": "threat-actor--5f5c6662-6a87-4d86-9e44-ae6c8b79e6e9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f21ef6a9-0354-4938-9daf-21e481ef8810",
+            "created": "2025-03-03T15:19:16.304814Z",
+            "modified": "2025-03-03T15:19:16.304814Z",
+            "relationship_type": "attributed-to",
+            "description": "Silver Serpent Collective is believed to be operated by Cobalt Group",
+            "source_ref": "intrusion-set--f2d6b5e8-3a7d-4970-8b15-053bc8b9e820",
+            "target_ref": "threat-actor--b9e4f6b4-4d1e-4b99-83f5-3c0e1cfcb7f2"
+        }
+    ]
+}

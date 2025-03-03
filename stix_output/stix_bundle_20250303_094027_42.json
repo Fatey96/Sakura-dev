@@ -1,0 +1,84 @@
+{
+    "type": "bundle",
+    "id": "bundle--20d0ddca-19e7-4482-a1b5-900d378fd7a5",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--d0f1b6b2-7d6d-4c2e-b2f3-0c67a7f8b9c3",
+            "created": "2023-10-15T14:30:00.000Z",
+            "modified": "2023-10-15T14:30:00.000Z",
+            "name": "Global Security Solutions",
+            "description": "Global Security Solutions provides comprehensive security services, including cyber threat detection and incident response.",
+            "roles": [
+                "security-provider",
+                "incident-response-team"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "finance",
+                "healthcare",
+                "government"
+            ],
+            "contact_information": "support@globalsecuritysolutions.com"
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--d8f1a7c3-e8b4-4f67-bb64-5c8f3d9c12c8",
+            "created_by_ref": "identity--d0f1b6b2-7d6d-4c2e-b2f3-0c67a7f8b9c3",
+            "created": "2023-10-20T10:00:00.000Z",
+            "modified": "2023-10-20T10:00:00.000Z",
+            "name": "Phantom Hawks",
+            "description": "Phantom Hawks is a highly sophisticated cybercriminal group specializing in ransomware attacks primarily targeting the healthcare sector.",
+            "threat_actor_types": [
+                "criminal",
+                "hacktivist"
+            ],
+            "aliases": [
+                "RansomSquad",
+                "HawkEye Crew"
+            ],
+            "roles": [
+                "attacker",
+                "data-exfiltrator"
+            ],
+            "goals": [
+                "financial gain",
+                "disruption of services"
+            ],
+            "sophistication": "highly advanced",
+            "resource_level": "organized crime",
+            "primary_motivation": "monetary gain",
+            "secondary_motivations": [
+                "political statement",
+                "psychological impact"
+            ],
+            "personal_motivations": [
+                "revenge against healthcare corporations"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8fff1b4a-0bc3-4782-82b9-9faeec17f1af",
+            "created": "2025-03-03T14:40:27.292877Z",
+            "modified": "2025-03-03T14:40:27.292877Z",
+            "relationship_type": "attributed-to",
+            "description": "Global Security Solutions is attributed to Phantom Hawks",
+            "source_ref": "identity--d0f1b6b2-7d6d-4c2e-b2f3-0c67a7f8b9c3",
+            "target_ref": "threat-actor--d8f1a7c3-e8b4-4f67-bb64-5c8f3d9c12c8"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2ae8b460-ece2-4964-b60e-de14d5878caa",
+            "created": "2025-03-03T14:40:27.292877Z",
+            "modified": "2025-03-03T14:40:27.292877Z",
+            "relationship_type": "attributed-to",
+            "description": "Phantom Hawks is connected to Global Security Solutions",
+            "source_ref": "threat-actor--d8f1a7c3-e8b4-4f67-bb64-5c8f3d9c12c8",
+            "target_ref": "identity--d0f1b6b2-7d6d-4c2e-b2f3-0c67a7f8b9c3"
+        }
+    ]
+}

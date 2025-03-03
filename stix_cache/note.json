@@ -1,0 +1,19 @@
+[
+  {
+    "type": "note",
+    "spec_version": "2.1",
+    "id": "note--5b7a1e6c-8e56-4b32-9c5b-9d0f1b4a2c3e",
+    "created": "2023-10-15T12:00:00.000Z",
+    "modified": "2023-10-15T12:00:00.000Z",
+    "abstract": "This note provides insights into the recent activities of the Phantom Menace threat actor group and their phishing tactics against financial institutions.",
+    "content": "The Phantom Menace group has been observed employing increasingly sophisticated phishing tactics targeting various financial institutions. Recent campaigns have utilized domains that closely mimic legitimate banking websites, aiming to trick users into divulging sensitive information. Analysts should remain vigilant and utilize the associated indicators to mitigate potential risks. The suspicious domain 'secure-login-bank.com' has been linked to these efforts and is included for reference. Continuous monitoring of these activities is crucial as the group adapts their strategies to evade detection.",
+    "authors": [
+      "Jane Doe",
+      "John Smith"
+    ],
+    "object_refs": [
+      "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+      "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77"
+    ]
+  }
+]

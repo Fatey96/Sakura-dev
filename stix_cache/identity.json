@@ -1,0 +1,60 @@
+[
+  {
+    "type": "identity",
+    "spec_version": "2.1",
+    "id": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+    "created": "2023-10-01T14:30:00.000Z",
+    "modified": "2023-10-01T14:30:00.000Z",
+    "name": "Global Defense Corp.",
+    "description": "Global Defense Corp. specializes in providing advanced cybersecurity solutions and threat intelligence services to government and military organizations worldwide.",
+    "roles": [
+      "cybersecurity-provider",
+      "threat-analyst"
+    ],
+    "identity_class": "organization",
+    "sectors": [
+      "defense",
+      "government"
+    ],
+    "contact_information": "contact@globaldefense.example.com"
+  },
+  {
+    "type": "identity",
+    "spec_version": "2.1",
+    "id": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+    "created": "2023-10-01T15:00:00.000Z",
+    "modified": "2023-10-01T15:00:00.000Z",
+    "name": "SecureTech Innovations",
+    "description": "SecureTech Innovations is a startup focused on developing AI-driven security solutions for the financial sector, helping to combat fraud and cyber threats.",
+    "roles": [
+      "technology-startup",
+      "security-innovator"
+    ],
+    "identity_class": "organization",
+    "sectors": [
+      "finance",
+      "technology"
+    ],
+    "contact_information": "support@securetech.example.com"
+  },
+  {
+    "type": "identity",
+    "spec_version": "2.1",
+    "id": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+    "created": "2023-10-05T10:00:00.000Z",
+    "modified": "2023-10-05T10:00:00.000Z",
+    "name": "CyberShield Technologies",
+    "description": "CyberShield Technologies is a prominent cybersecurity firm that provides comprehensive security solutions and consulting services to enterprises across various sectors, focusing on risk management and threat mitigation.",
+    "roles": [
+      "cybersecurity-consultant",
+      "threat-response-provider"
+    ],
+    "identity_class": "organization",
+    "sectors": [
+      "technology",
+      "healthcare",
+      "education"
+    ],
+    "contact_information": "contact@cybershieldtech.example.com"
+  }
+]

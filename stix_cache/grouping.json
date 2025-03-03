@@ -1,0 +1,19 @@
+[
+  {
+    "type": "grouping",
+    "spec_version": "2.1",
+    "id": "grouping--e8f9d4e2-2c03-4b67-b1b9-914c0dc6e6f5",
+    "created": "2023-10-20T09:30:00.000Z",
+    "modified": "2023-10-20T09:30:00.000Z",
+    "name": "Phantom Menace Phishing Campaigns",
+    "description": "A grouping of relevant notes and indicators related to the phishing tactics employed by the Phantom Menace threat actor group against financial institutions.",
+    "context": "This grouping captures insights and indicators relevant to recent phishing campaigns by the Phantom Menace group, focusing on their evolving tactics and targeted sectors.",
+    "object_refs": [
+      "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77",
+      "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e",
+      "location--3f2b9f91-9a8b-4a6a-8e2d-1a0d4f5c5b11",
+      "note--5b7a1e6c-8e56-4b32-9c5b-9d0f1b4a2c3e"
+    ],
+    "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb"
+  }
+]

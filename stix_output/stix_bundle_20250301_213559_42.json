@@ -1,0 +1,1924 @@
+{
+    "type": "bundle",
+    "id": "bundle--28d7c563-8fe0-468f-9166-8ca7bf79bb7f",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--5a3d2e38-2e6f-4f63-a6d1-63cf0a4b721b",
+            "created": "2023-10-01T14:30:00.000Z",
+            "modified": "2023-10-01T14:30:00.000Z",
+            "name": "Global Cyber Defense Group",
+            "description": "A multinational organization focused on providing advanced cybersecurity solutions and threat intelligence services to enterprises worldwide.",
+            "roles": [
+                "cybersecurity-consultant",
+                "threat-intelligence-provider",
+                "incident-response-team"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "finance",
+                "government",
+                "healthcare"
+            ],
+            "contact_information": "contact@globalcyberdefense.example.com"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--f6c3e75d-2d8a-4b77-9e46-006e8c073c6b",
+            "created": "2023-10-01T15:00:00.000Z",
+            "modified": "2023-10-01T15:00:00.000Z",
+            "name": "Cyber Shield Solutions",
+            "description": "Cyber Shield Solutions specializes in providing cybersecurity consulting and risk management services to small and medium-sized enterprises. Our team is dedicated to securing digital assets and enhancing organizational resilience against cyber threats.",
+            "roles": [
+                "cybersecurity-consultant",
+                "risk-management-provider"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "technology",
+                "manufacturing"
+            ],
+            "contact_information": "support@cybershield.example.com"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--e1a0e2b3-5c3d-4b3a-bf7c-9c4a2e1f0e72",
+            "created": "2023-10-05T10:15:00.000Z",
+            "modified": "2023-10-05T10:15:00.000Z",
+            "name": "SecureTech Solutions",
+            "description": "SecureTech Solutions specializes in providing cutting-edge cybersecurity services, including vulnerability assessments and penetration testing.",
+            "roles": [
+                "cybersecurity-consultant",
+                "vulnerability-assessor"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "technology",
+                "consulting"
+            ],
+            "contact_information": "info@securetech.example.com"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--d3e7d52b-2e2b-4e88-bb4f-3c0bc6b5e5f3",
+            "created": "2023-10-06T12:00:00.000Z",
+            "modified": "2023-10-06T12:00:00.000Z",
+            "name": "DataSafe Inc.",
+            "description": "DataSafe Inc. is a provider of data protection solutions, focusing on encryption and data loss prevention technologies.",
+            "roles": [
+                "data-security-provider",
+                "encryption-specialist"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "finance",
+                "healthcare"
+            ],
+            "contact_information": "support@datasafe.example.com"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--a2c5b3d6-f3f1-4f9d-a1f7-3ef5e9b2e2b8",
+            "created": "2023-10-07T14:45:00.000Z",
+            "modified": "2023-10-07T14:45:00.000Z",
+            "name": "CyberThreat Intelligence Agency",
+            "description": "A government agency dedicated to monitoring and mitigating cyber threats, providing intelligence to law enforcement and national security.",
+            "roles": [
+                "government-agency",
+                "threat-intelligence-provider"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "government",
+                "national-security"
+            ],
+            "contact_information": "info@cti-agency.example.gov"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--b9a1e0d1-4c5b-4f5a-a3fa-5e9c1b2e2a3d",
+            "created": "2023-10-08T09:30:00.000Z",
+            "modified": "2023-10-08T09:30:00.000Z",
+            "name": "CyberSafe Non-Profit",
+            "description": "A non-profit organization focused on educating individuals and businesses about cybersecurity risks and best practices.",
+            "roles": [
+                "educational-organization",
+                "cybersecurity-awareness-provider"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "education",
+                "non-profit"
+            ],
+            "contact_information": "contact@cybersafe.org"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--c1e4b8b7-7c8c-4b0e-8f9e-5f1c3d8f3a0e",
+            "created": "2023-10-09T11:00:00.000Z",
+            "modified": "2023-10-09T11:00:00.000Z",
+            "name": "Threat Analysis Group",
+            "description": "A specialized group within a larger cybersecurity firm focused on analyzing emerging threats and developing countermeasures.",
+            "roles": [
+                "threat-researcher",
+                "incident-response-team"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "technology",
+                "consulting"
+            ],
+            "contact_information": "research@threatanalysis.example.com"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--c4f932b4-5f3a-4f56-8c5d-1a8b5e4d2f2f",
+            "created": "2023-10-01T15:00:00.000Z",
+            "modified": "2023-10-01T15:00:00.000Z",
+            "name": "SecureTech Innovations",
+            "description": "SecureTech Innovations specializes in developing advanced encryption technologies and secure communication solutions for businesses.",
+            "roles": [
+                "technology-provider",
+                "consultant"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "technology",
+                "telecommunications"
+            ],
+            "contact_information": "contact@securetech.example.com"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--9f8e7d6c-5b4a-4c3b-a2f1-0e8d7c6b5a4d",
+            "created": "2023-10-02T12:30:00.000Z",
+            "modified": "2023-10-02T12:30:00.000Z",
+            "name": "Threat Intelligence Alliance",
+            "description": "A collaborative group of leading cybersecurity firms focused on sharing threat intelligence and improving global security postures.",
+            "roles": [
+                "threat-intelligence-provider",
+                "collaborator"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "government",
+                "technology"
+            ],
+            "contact_information": "info@threatintelalliance.example.com"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--b5d4c3e2-a1f0-4e2a-bc5d-6e4f3a2b1c0d",
+            "created": "2023-10-03T14:00:00.000Z",
+            "modified": "2023-10-03T14:00:00.000Z",
+            "name": "Advanced Threat Research Labs",
+            "description": "A research organization dedicated to analyzing and publishing findings on emerging cyber threats and vulnerabilities.",
+            "roles": [
+                "researcher",
+                "analyst"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "technology",
+                "research"
+            ],
+            "contact_information": "info@atrlabs.example.com"
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--c4f1b3f0-9e3f-43a7-9b05-df5c7c6e45a8",
+            "created": "2023-10-08T10:00:00.000Z",
+            "modified": "2023-10-08T10:00:00.000Z",
+            "name": "CVE-2023-4567",
+            "description": "A SQL injection vulnerability in the User Management Module of ABC Web Application versions 1.0 to 1.5 allows remote authenticated attackers to execute arbitrary SQL commands, potentially compromising the database integrity.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-4567"
+                },
+                {
+                    "source_name": "vendor",
+                    "external_id": "https://www.example.com/security/advisories/2023-4567"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--a2bc4f74-6b19-4f25-a58d-7c2d4f1a1e8b",
+            "created": "2023-10-08T10:30:00.000Z",
+            "modified": "2023-10-08T10:30:00.000Z",
+            "name": "CVE-2023-7890",
+            "description": "A cross-site scripting (XSS) vulnerability in the comment section of XYZ Blog Platform versions 2.0 to 2.2 allows attackers to inject arbitrary web scripts, which can lead to session hijacking and data leakage for unsuspecting users.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-7890"
+                },
+                {
+                    "source_name": "vendor",
+                    "external_id": "https://www.xyzblog.com/security/cve-2023-7890"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--b7f1b32f-1a0c-4b79-bc69-3c7827b7e3e4",
+            "created": "2023-10-01T10:00:00.000Z",
+            "modified": "2023-10-01T10:00:00.000Z",
+            "name": "CVE-2023-5678",
+            "description": "A SQL injection vulnerability in DataSafe Inc.'s web application allows remote attackers to execute arbitrary SQL commands on the database, potentially leading to unauthorized access to sensitive data.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-5678"
+                },
+                {
+                    "source_name": "datasafe",
+                    "external_id": "https://datasafe.example.com/security/advisories/CVE-2023-5678"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--d2f3b2d3-8f1a-4c75-ab62-7e7a1a4c3c5b",
+            "created": "2023-10-02T11:30:00.000Z",
+            "modified": "2023-10-02T11:30:00.000Z",
+            "name": "CVE-2023-6789",
+            "description": "A cross-site scripting (XSS) vulnerability in CyberSafe Non-Profit's educational portal allows attackers to inject malicious scripts, compromising user sessions and potentially leading to data theft.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-6789"
+                },
+                {
+                    "source_name": "cybersafe",
+                    "external_id": "https://cybersafe.org/security/advisories/CVE-2023-6789"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--c4e2d8b5-1a2e-49a0-a0bb-4c2c6b3e9f90",
+            "created": "2023-10-03T09:45:00.000Z",
+            "modified": "2023-10-03T09:45:00.000Z",
+            "name": "CVE-2023-7890",
+            "description": "An arbitrary file upload vulnerability in the CyberThreat Intelligence Agency's incident reporting tool allows unauthenticated users to upload malicious files, potentially leading to system compromise.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-7890"
+                },
+                {
+                    "source_name": "cti-agency",
+                    "external_id": "https://cti-agency.example.gov/security/advisories/CVE-2023-7890"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--f1e1c6a8-3b3b-4b2e-bb3f-8b679b6d7a8a",
+            "created": "2023-10-04T14:20:00.000Z",
+            "modified": "2023-10-04T14:20:00.000Z",
+            "name": "CVE-2023-8901",
+            "description": "A privilege escalation vulnerability in the DataSafe Inc. encryption service allows local users to gain elevated privileges, potentially leading to unauthorized access to sensitive encryption keys.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-8901"
+                },
+                {
+                    "source_name": "datasafe",
+                    "external_id": "https://datasafe.example.com/security/advisories/CVE-2023-8901"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--a3e3c2f6-4f1b-4b8f-90e1-9c1e3d1f3fe2",
+            "created": "2023-10-05T15:10:00.000Z",
+            "modified": "2023-10-05T15:10:00.000Z",
+            "name": "CVE-2023-9012",
+            "description": "An insecure direct object reference vulnerability in CyberSafe Non-Profit's donation management system allows attackers to access and modify donations made by other users.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-9012"
+                },
+                {
+                    "source_name": "cybersafe",
+                    "external_id": "https://cybersafe.org/security/advisories/CVE-2023-9012"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e4c8b1e9-7b9a-4c5f-b7f2-c2048a5e5e26",
+            "created": "2023-10-05T10:00:00.000Z",
+            "modified": "2023-10-05T10:00:00.000Z",
+            "name": "Remote Code Execution via Insecure Deserialization",
+            "description": "This attack pattern involves exploiting an insecure deserialization vulnerability in a web application to execute arbitrary code on the server. Attackers craft malicious data that, when deserialized, allows them to execute code with the same privileges as the application, potentially leading to full system compromise.",
+            "aliases": [
+                "RCE via Insecure Deserialization",
+                "Deserialization Attack"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                },
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--d7c3f2d3-0987-4b6e-beb1-5d5b5e9a2f91",
+            "created_by_ref": "identity--c9260cf2-1c3b-46a8-b66f-c29a9dc5c78f",
+            "created": "2023-10-01T12:00:00.000Z",
+            "modified": "2023-10-01T12:00:00.000Z",
+            "name": "Phantom Legion",
+            "description": "Phantom Legion is a cybercriminal group specializing in ransomware attacks against large enterprises, particularly in the finance and healthcare sectors. They are known for their sophisticated techniques and ability to evade detection.",
+            "threat_actor_types": [
+                "criminal",
+                "hacktivist"
+            ],
+            "aliases": [
+                "Ghost Syndicate",
+                "Specter Crew"
+            ],
+            "roles": [
+                "developer",
+                "operator"
+            ],
+            "goals": [
+                "financial gain",
+                "disruption of services"
+            ],
+            "sophistication": "high",
+            "resource_level": "organized-crime",
+            "primary_motivation": "financial-profit",
+            "secondary_motivations": [
+                "political-agenda",
+                "retribution"
+            ],
+            "personal_motivations": [
+                "recognition",
+                "thrill-seeking"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--1b5a1d68-7f6e-4a2c-9baa-5e3b8c8cd31c",
+            "created_by_ref": "identity--5a3d2e38-2e6f-4f63-a6d1-63cf0a4b721b",
+            "created": "2023-10-05T09:15:30.000Z",
+            "modified": "2023-10-05T09:15:30.000Z",
+            "name": "Ransomware-X",
+            "description": "Ransomware-X is a highly sophisticated ransomware variant that encrypts user files and demands payment in cryptocurrency for decryption keys. It targets both individual users and enterprise environments, spreading through phishing emails and exploit kits.",
+            "malware_types": [
+                "ransomware"
+            ],
+            "is_family": true,
+            "aliases": [
+                "RansomX",
+                "CryptoLocker Pro"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "installation"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "command-and-control"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "actions-on-objectives"
+                }
+            ],
+            "architecture_execution_envs": [
+                "windows",
+                "linux"
+            ],
+            "implementation_languages": [
+                "Python",
+                "C#"
+            ],
+            "capabilities": [
+                "file-encryption",
+                "data-theft",
+                "ransom-demand"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--5f1e8a6b-8f4e-4fcd-83b4-1c0f0e5e1a9b",
+            "created_by_ref": "identity--d3e7d52b-2e2b-4e88-bb4f-3c0bc6b5e5f3",
+            "created": "2023-10-10T12:00:00.000Z",
+            "modified": "2023-10-10T12:00:00.000Z",
+            "name": "PhantomLoader",
+            "description": "PhantomLoader is a sophisticated malware designed to deliver various payloads and evade detection. It uses advanced encryption techniques and is often associated with targeted attacks on financial institutions.",
+            "malware_types": [
+                "trojan",
+                "downloader"
+            ],
+            "is_family": true,
+            "aliases": [
+                "PhantomDropper",
+                "GhostLoader"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "installation"
+                }
+            ],
+            "architecture_execution_envs": [
+                "x86",
+                "x64"
+            ],
+            "implementation_languages": [
+                "C#",
+                "JavaScript"
+            ],
+            "capabilities": [
+                "payload-delivery",
+                "anti-detection",
+                "data-exfiltration"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--f2b3e450-8b3c-4b56-bc4e-6d7e8c5b8f7a",
+            "created_by_ref": "identity--d3e7d52b-2e2b-4e88-bb4f-3c0bc6b5e5f3",
+            "created": "2023-09-01T12:30:00.000Z",
+            "modified": "2023-09-01T12:30:00.000Z",
+            "name": "PhishNet",
+            "description": "PhishNet is a phishing malware that mimics legitimate websites to capture user credentials and sensitive information.",
+            "malware_types": [
+                "phishing"
+            ],
+            "is_family": true,
+            "aliases": [
+                "Credential Stealer"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                }
+            ],
+            "architecture_execution_envs": [
+                "windows",
+                "macos"
+            ],
+            "implementation_languages": [
+                "JavaScript",
+                "HTML"
+            ],
+            "capabilities": [
+                "credential-harvesting",
+                "social-engineering"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--1e9b64d7-4c2b-4b99-9f7b-6e3c2b4f69f7",
+            "created_by_ref": "identity--c1e4b8b7-7c8c-4b0e-8f9e-5f1c3d8f3a0e",
+            "created": "2023-10-01T08:00:00.000Z",
+            "modified": "2023-10-01T08:00:00.000Z",
+            "name": "Ransomware X",
+            "description": "Ransomware X is a sophisticated ransomware variant that encrypts user files and demands a ransom for decryption keys.",
+            "malware_types": [
+                "ransomware"
+            ],
+            "is_family": false,
+            "aliases": [
+                "CryptoLock",
+                "FileEncryptor"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "installation"
+                }
+            ],
+            "architecture_execution_envs": [
+                "windows",
+                "linux"
+            ],
+            "implementation_languages": [
+                "Python",
+                "C#"
+            ],
+            "capabilities": [
+                "file-encryption",
+                "ransom-demand"
+            ]
+        },
+        {
+            "type": "tool",
+            "spec_version": "2.1",
+            "id": "tool--a4e8d8e4-5e1f-41aa-9f5c-fcd9e2a2a4b5",
+            "created_by_ref": "identity--d3e7d52b-2e2b-4e88-bb4f-3c0bc6b5e5f3",
+            "created": "2023-09-15T10:00:00.000Z",
+            "modified": "2023-09-15T10:00:00.000Z",
+            "name": "WebSneak",
+            "description": "WebSneak is a web application vulnerability scanner designed to identify security weaknesses in web applications, particularly those that could lead to SQL injection and cross-site scripting attacks.",
+            "tool_types": [
+                "vulnerability-scanner"
+            ],
+            "aliases": [
+                "SneakyScanner"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "reconnaissance"
+                }
+            ],
+            "tool_version": "1.0.0"
+        },
+        {
+            "type": "tool",
+            "spec_version": "2.1",
+            "id": "tool--c3f6b1be-9a6c-4b8e-8e39-bf4c1e5d8c4e",
+            "created_by_ref": "identity--e1a0e2b3-5c3d-4b3a-bf7c-9c4a2e1f0e72",
+            "created": "2023-09-25T09:45:00.000Z",
+            "modified": "2023-09-25T09:45:00.000Z",
+            "name": "PhishEx",
+            "description": "PhishEx is a sophisticated phishing toolkit that allows attackers to create and manage phishing campaigns with ease, including customizable templates and automation features.",
+            "tool_types": [
+                "phishing-tool"
+            ],
+            "aliases": [
+                "PhishKit"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                }
+            ],
+            "tool_version": "2.1.5"
+        },
+        {
+            "type": "tool",
+            "spec_version": "2.1",
+            "id": "tool--d2f5e0c9-8e2d-4d6a-9f8c-e4f6a6b4b7c5",
+            "created_by_ref": "identity--a2c5b3d6-f3f1-4f9d-a1f7-3ef5e9b2e2b8",
+            "created": "2023-09-30T12:00:00.000Z",
+            "modified": "2023-09-30T12:00:00.000Z",
+            "name": "DataLeak",
+            "description": "DataLeak is a data exfiltration tool that utilizes various methods, including HTTP/HTTPS, to stealthily extract sensitive information from compromised systems.",
+            "tool_types": [
+                "data-exfiltration-tool"
+            ],
+            "aliases": [
+                "LeakX"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exfiltration"
+                }
+            ],
+            "tool_version": "4.0.1"
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--d7d4cb1b-bc0d-4d23-8b3e-8b1d4e7b9e72",
+            "created_by_ref": "identity--9f8e7d6c-5b4a-4c3b-a2f1-0e8d7c6b5a4d",
+            "created": "2023-09-05T15:45:00.000Z",
+            "modified": "2023-09-05T15:45:00.000Z",
+            "name": "Operation Ransomstorm",
+            "description": "A large-scale ransomware campaign targeting healthcare providers in North America, leading to system outages and data breaches.",
+            "aliases": [
+                "OpRansomstorm",
+                "Healthcare Lockdown"
+            ],
+            "first_seen": "2023-08-15T00:00:00Z",
+            "last_seen": "2023-09-04T23:59:59Z",
+            "objective": "Encrypt sensitive healthcare data and demand ransom for decryption keys"
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--2a0fef09-8e1b-4f7c-9f59-bbc0c1b3e3a2",
+            "created_by_ref": "identity--f6c3e75d-2d8a-4b77-9e46-006e8c073c6b",
+            "created": "2023-09-10T09:30:00.000Z",
+            "modified": "2023-09-10T09:30:00.000Z",
+            "name": "Operation Data Harvest",
+            "description": "An extensive data harvesting campaign focusing on e-commerce platforms to gather customer data and payment information.",
+            "aliases": [
+                "OpDataHarvest",
+                "E-commerce Exploit"
+            ],
+            "first_seen": "2023-08-25T00:00:00Z",
+            "last_seen": "2023-09-09T23:59:59Z",
+            "objective": "Collect customer data and financial information for resale on dark web"
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--c1ed2b9b-1e3b-4c6f-bb1c-2b4b77f99d4e",
+            "created_by_ref": "identity--a2c5b3d6-f3f1-4f9d-a1f7-3ef5e9b2e2b8",
+            "created": "2023-09-15T08:00:00.000Z",
+            "modified": "2023-09-15T08:00:00.000Z",
+            "name": "Operation Phantom Network",
+            "description": "A sophisticated cyber-espionage campaign aimed at infiltrating telecommunications companies worldwide to gather intelligence on global communications.",
+            "aliases": [
+                "OpPhantomNetwork",
+                "Telecom Breach"
+            ],
+            "first_seen": "2023-08-30T00:00:00Z",
+            "last_seen": "2023-09-14T23:59:59Z",
+            "objective": "Gain unauthorized access to communications data and client information"
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--5b2e1c67-1a34-4cbb-9b8e-0c7e6c905b72",
+            "created_by_ref": "identity--f6c3e75d-2d8a-4b77-9e46-006e8c073c6b",
+            "created": "2023-09-01T10:00:00.000Z",
+            "modified": "2023-09-01T10:00:00.000Z",
+            "name": "Operation Silver Shield",
+            "description": "A sophisticated campaign targeting healthcare organizations in North America, employing phishing and ransomware tactics.",
+            "aliases": [
+                "OpSilverShield",
+                "Healthcare Heist"
+            ],
+            "first_seen": "2023-08-15T00:00:00Z",
+            "last_seen": "2023-08-31T23:59:59Z",
+            "objective": "Encrypt sensitive patient data and demand ransom for decryption keys."
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--4a8f8c2a-72b1-4f61-b1ff-7f9e8d4bce5e",
+            "created_by_ref": "identity--b5d4c3e2-a1f0-4e2a-bc5d-6e4f3a2b1c0d",
+            "created": "2023-08-15T14:30:00.000Z",
+            "modified": "2023-08-15T14:30:00.000Z",
+            "name": "Operation Dark Horizon",
+            "description": "A state-sponsored operation targeting critical infrastructure in Eastern Europe, utilizing advanced persistent threat techniques.",
+            "aliases": [
+                "OpDarkHorizon",
+                "Eastern Threat"
+            ],
+            "first_seen": "2023-07-01T00:00:00Z",
+            "last_seen": "2023-08-14T23:59:59Z",
+            "objective": "Disrupt essential services and gather intelligence on governmental operations."
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--8b1d9e5e-2f4b-4a3d-8c5c-8d5c4f4d1e77",
+            "created_by_ref": "identity--5a3d2e38-2e6f-4f63-a6d1-63cf0a4b721b",
+            "created": "2023-09-10T09:00:00.000Z",
+            "modified": "2023-09-10T09:00:00.000Z",
+            "name": "Operation Silent Echo",
+            "description": "A cyber espionage campaign aimed at technology companies, employing custom malware and social engineering techniques.",
+            "aliases": [
+                "OpSilentEcho",
+                "Tech Espionage"
+            ],
+            "first_seen": "2023-08-20T00:00:00Z",
+            "last_seen": "2023-09-09T23:59:59Z",
+            "objective": "Steal intellectual property and sensitive corporate data."
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--c4f4e17b-8c9b-4e2e-bc10-9f9e8a4f1f4e",
+            "created_by_ref": "identity--b5d4c3e2-a1f0-4e2a-bc5d-6e4f3a2b1c0d",
+            "created": "2023-08-05T11:00:00.000Z",
+            "modified": "2023-08-05T11:00:00.000Z",
+            "name": "Operation Phantom Mirage",
+            "description": "An attack campaign that leverages zero-day vulnerabilities against government entities in South America.",
+            "aliases": [
+                "OpPhantomMirage",
+                "South American Breach"
+            ],
+            "first_seen": "2023-07-10T00:00:00Z",
+            "last_seen": "2023-08-04T23:59:59Z",
+            "objective": "Gain unauthorized access to sensitive governmental databases."
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--3d2e5f4a-9c2b-4e40-ae2f-e3e3b5c0b4a3",
+            "created_by_ref": "identity--a2c5b3d6-f3f1-4f9d-a1f7-3ef5e9b2e2b8",
+            "created": "2023-09-20T08:00:00.000Z",
+            "modified": "2023-09-20T08:00:00.000Z",
+            "name": "Operation Golden Key",
+            "description": "A series of targeted attacks against financial institutions using sophisticated malware and insider threats.",
+            "aliases": [
+                "OpGoldenKey",
+                "Banking Breach"
+            ],
+            "first_seen": "2023-08-01T00:00:00Z",
+            "last_seen": "2023-09-19T23:59:59Z",
+            "objective": "Compromise financial systems and facilitate unauthorized transactions."
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c2c1f34e-e8a5-4a3e-bd29-d0ae567f3a04",
+            "created_by_ref": "identity--f6c3e75d-2d8a-4b77-9e46-006e8c073c6b",
+            "created": "2023-09-22T10:30:00.000Z",
+            "modified": "2023-09-22T10:30:00.000Z",
+            "name": "Suspicious URL for Operation Golden Key",
+            "description": "This URL has been identified as a command and control endpoint associated with Operation Golden Key, targeting financial institutions.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[url:value = 'http://malicious-key.com/c2']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-22T10:30:00Z",
+            "valid_until": "2024-09-22T10:30:00Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "command-and-control"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d5d7d44e-4b0c-4e5f-bbd4-0e5f5b1f8a56",
+            "created_by_ref": "identity--e1a0e2b3-5c3d-4b3a-bf7c-9c4a2e1f0e72",
+            "created": "2023-09-23T11:15:00.000Z",
+            "modified": "2023-09-23T11:15:00.000Z",
+            "name": "Malicious SHA-256 Hash for Operation Silent Whisper",
+            "description": "This SHA-256 hash corresponds to a malware sample used in Operation Silent Whisper, targeting government institutions.",
+            "indicator_types": [
+                "malicious-file"
+            ],
+            "pattern": "[file:hashes.'SHA-256' = 'a3c5f91d5c3f3b8ef1c5e3e9f5bc9a7e5e3e8fdc5e8b5e9c5e8f5c3d5e5e4c3d']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                }
+            ],
+            "valid_from": "2023-09-23T11:15:00Z",
+            "valid_until": "2024-09-23T11:15:00Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f2b1b1e6-5a3c-42f0-af5e-8e5d2d4fc5e7",
+            "created_by_ref": "identity--e1a0e2b3-5c3d-4b3a-bf7c-9c4a2e1f0e72",
+            "created": "2023-09-24T14:45:00.000Z",
+            "modified": "2023-09-24T14:45:00.000Z",
+            "name": "Email Address Linked to Operation Ransomstorm",
+            "description": "This email address is linked to the distribution of ransomware associated with Operation Ransomstorm, which targets various sectors.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[email-addr:value = 'attackers@ransomstorm.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-24T14:45:00Z",
+            "valid_until": "2024-09-24T14:45:00Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e4c2f4c5-2b6d-4c82-8b8d-5f3c8c1b8e9f",
+            "created_by_ref": "identity--c1e4b8b7-7c8c-4b0e-8f9e-5f1c3d8f3a0e",
+            "created": "2023-09-20T12:00:00.000Z",
+            "modified": "2023-09-20T12:00:00.000Z",
+            "name": "Suspicious Domain for Operation Golden Key",
+            "description": "This domain is associated with phishing attempts targeting financial institutions as part of Operation Golden Key.",
+            "indicator_types": [
+                "malicious-activity",
+                "phishing"
+            ],
+            "pattern": "[domain-name:value = 'secure-login-banking.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                }
+            ],
+            "valid_from": "2023-09-20T12:00:00Z",
+            "valid_until": "2024-09-20T12:00:00Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--728c7f98-89a4-4c92-bf9e-6aaddc5c11b0",
+            "created_by_ref": "identity--c4f932b4-5f3a-4f56-8c5d-1a8b5e4d2f2f",
+            "created": "2023-09-22T08:15:00.000Z",
+            "modified": "2023-09-22T08:15:00.000Z",
+            "name": "Malware Hash for Operation Ransomstorm",
+            "description": "This SHA-256 hash represents a variant of ransomware used in Operation Ransomstorm, targeting corporate networks.",
+            "indicator_types": [
+                "malware",
+                "ransomware"
+            ],
+            "pattern": "[file:hashes.'SHA-256' = 'a3f5e8b6f0ac3d4c1ea47c2f0c0c7b8d2a818c8f5f8f8d2b1f8c1f4b8e1b8a1c']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-22T08:15:00Z",
+            "valid_until": "2024-09-22T08:15:00Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--5f66d24d-5d18-4e0d-b4f8-1f8e1cc59e1b",
+            "created_by_ref": "identity--b9a1e0d1-4c5b-4f5a-a3fa-5e9c1b2e2a3d",
+            "created": "2023-09-23T09:00:00.000Z",
+            "modified": "2023-09-23T09:00:00.000Z",
+            "name": "Suspicious Email Address",
+            "description": "This email address has been used to send spear-phishing emails targeting employees of financial institutions as part of Operation Golden Key.",
+            "indicator_types": [
+                "malicious-activity",
+                "phishing"
+            ],
+            "pattern": "[email-addr:value = 'info@secure-login-banking.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                }
+            ],
+            "valid_from": "2023-09-23T09:00:00Z",
+            "valid_until": "2024-09-23T09:00:00Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d6e7f8a9-2f3e-4c5f-a9e8-3b6f3c4f9e3f",
+            "created_by_ref": "identity--d3e7d52b-2e2b-4e88-bb4f-3c0bc6b5e5f3",
+            "created": "2023-09-24T10:45:00.000Z",
+            "modified": "2023-09-24T10:45:00.000Z",
+            "name": "Malicious User-Agent String",
+            "description": "This User-Agent string has been detected in web requests made by malicious bots associated with Operation Silent Whisper.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[user-agent:value = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36']",
+            "pattern_type": "stix",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "reconnaissance"
+                }
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-24T10:45:00Z",
+            "valid_until": "2024-09-24T10:45:00Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f4a2c1ac-2a9c-4a1e-a2b0-ef16c0e508e7",
+            "created_by_ref": "identity--b9a1e0d1-4c5b-4f5a-a3fa-5e9c1b2e2a3d",
+            "created": "2023-09-21T10:30:00.000Z",
+            "modified": "2023-09-21T10:30:00.000Z",
+            "name": "Suspicious Domain for Operation Golden Key",
+            "description": "The domain 'maliciousbanking.com' is associated with phishing attempts targeting clients of financial institutions involved in Operation Golden Key.",
+            "indicator_types": [
+                "malicious-activity",
+                "phishing"
+            ],
+            "pattern": "[domain-name:value = 'maliciousbanking.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                }
+            ],
+            "valid_from": "2023-09-21T10:30:00Z",
+            "valid_until": "2024-09-21T10:30:00Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e7f3b5f6-f2e5-4e1a-a7b3-3f5e8d0e3fcb",
+            "created_by_ref": "identity--d3e7d52b-2e2b-4e88-bb4f-3c0bc6b5e5f3",
+            "created": "2023-09-23T09:15:00.000Z",
+            "modified": "2023-09-23T09:15:00.000Z",
+            "name": "Malicious IP for Operation Ransomstorm",
+            "description": "The IP address '192.0.2.50' has been linked to ransomware activities and is known to be utilized in Operation Ransomstorm.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ipv4-addr:value = '192.0.2.50']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-23T09:15:00Z",
+            "valid_until": "2024-09-23T09:15:00Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "command-and-control"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c6e9a7d5-3d2c-4b8b-8c5d-7e4b23f3f6c0",
+            "created_by_ref": "identity--9f8e7d6c-5b4a-4c3b-a2f1-0e8d7c6b5a4d",
+            "created": "2023-09-24T11:45:00.000Z",
+            "modified": "2023-09-24T11:45:00.000Z",
+            "name": "Email Address for Operation Golden Key",
+            "description": "The email address 'scam@maliciousbanking.com' is used in phishing campaigns targeting financial institution clients in Operation Golden Key.",
+            "indicator_types": [
+                "malicious-activity",
+                "phishing"
+            ],
+            "pattern": "[email-addr:value = 'scam@maliciousbanking.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                }
+            ],
+            "valid_from": "2023-09-24T11:45:00Z",
+            "valid_until": "2024-09-24T11:45:00Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a5f8d4b2-7b3e-4c1e-a3f5-2e6c43c4f6d7",
+            "created_by_ref": "identity--5a3d2e38-2e6f-4f63-a6d1-63cf0a4b721b",
+            "created": "2023-09-25T16:00:00.000Z",
+            "modified": "2023-09-25T16:00:00.000Z",
+            "name": "Suspicious File for Operation Silent Whisper",
+            "description": "The file 'sensitive_data_extractor.exe' is suspected to be used in Operation Silent Whisper for unauthorized data exfiltration.",
+            "indicator_types": [
+                "malware",
+                "file-name"
+            ],
+            "pattern": "[file:name = 'sensitive_data_extractor.exe']",
+            "pattern_type": "stix",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exfiltration"
+                }
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-25T16:00:00Z",
+            "valid_until": "2024-09-25T16:00:00Z"
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--c9b8f6a9-2ad9-4eeb-89d6-9c8af1e6b0a9",
+            "created_by_ref": "identity--c1e4b8b7-7c8c-4b0e-8f9e-5f1c3d8f3a0e",
+            "created": "2023-10-04T11:20:00.000Z",
+            "modified": "2023-10-04T11:20:00.000Z",
+            "name": "Ransomware Trends: An Analysis of Recent Attacks",
+            "description": "This report analyzes recent ransomware attacks, providing insights into the tactics used by threat actors and the financial impacts on organizations.",
+            "report_types": [
+                "attack-pattern",
+                "threat-actor"
+            ],
+            "published": "2023-10-04T14:00:00Z",
+            "object_refs": [
+                "attack-pattern--e4c8b1e9-7b9a-4c5f-b7f2-c2048a5e5e26",
+                "identity--a2c5b3d6-f3f1-4f9d-a1f7-3ef5e9b2e2b8",
+                "indicator--d5d7d44e-4b0c-4e5f-bbd4-0e5f5b1f8a56"
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--b3e1c0d6-8f2e-4c2a-bd36-e2c547ef8b5d",
+            "created_by_ref": "identity--d3e7d52b-2e2b-4e88-bb4f-3c0bc6b5e5f3",
+            "created": "2023-10-05T08:45:00.000Z",
+            "modified": "2023-10-05T08:45:00.000Z",
+            "name": "APT28: Evolution of Techniques and Tools",
+            "description": "This report examines the evolving tactics and tools used by APT28, including their recent campaigns against government entities in Eastern Europe.",
+            "report_types": [
+                "threat-actor",
+                "attack-pattern"
+            ],
+            "published": "2023-10-05T12:00:00Z",
+            "object_refs": [
+                "vulnerability--f1e1c6a8-3b3b-4b2e-bb3f-8b679b6d7a8a",
+                "indicator--e4c2f4c5-2b6d-4c82-8b8d-5f3c8c1b8e9f",
+                "vulnerability--a2bc4f74-6b19-4f25-a58d-7c2d4f1a1e8b",
+                "campaign--5b2e1c67-1a34-4cbb-9b8e-0c7e6c905b72"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--f4e2d3a1-4a7f-4b6b-8f2c-8fa3c2d1e4e1",
+            "created_by_ref": "identity--d3e7d52b-2e2b-4e88-bb4f-3c0bc6b5e5f3",
+            "created": "2023-10-01T09:30:00.000Z",
+            "modified": "2023-10-01T09:30:00.000Z",
+            "name": "Crimson Eagle",
+            "description": "Crimson Eagle is a state-sponsored hacking group known for targeting critical infrastructure in North America, particularly energy and utility sectors.",
+            "aliases": [
+                "Red Eagle",
+                "Group APT-32"
+            ],
+            "first_seen": "2021-04-15T00:00:00Z",
+            "last_seen": "2023-09-30T23:59:59Z",
+            "goals": [
+                "disruption of services",
+                "espionage"
+            ],
+            "resource_level": "government",
+            "primary_motivation": "national-security",
+            "secondary_motivations": [
+                "political-gain"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--d2c8f5c9-e2d3-4c9e-b8a1-1d7a7c3a4e2e",
+            "created_by_ref": "identity--b9a1e0d1-4c5b-4f5a-a3fa-5e9c1b2e2a3d",
+            "created": "2023-08-15T14:00:00.000Z",
+            "modified": "2023-08-15T14:00:00.000Z",
+            "name": "Dark Phantoms",
+            "description": "Dark Phantoms is a cybercrime group focused on ransomware attacks targeting healthcare organizations across Europe.",
+            "aliases": [
+                "DP Group",
+                "Phantom Ransomware Gang"
+            ],
+            "first_seen": "2022-06-20T00:00:00Z",
+            "last_seen": "2023-08-14T23:59:59Z",
+            "goals": [
+                "financial gain",
+                "disruption of healthcare services"
+            ],
+            "resource_level": "criminal-organization",
+            "primary_motivation": "financial-gain",
+            "secondary_motivations": [
+                "chaos"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--c8d2f3b5-4e0a-4c2e-9a3a-b5f7c2e3d2e2",
+            "created_by_ref": "identity--f6c3e75d-2d8a-4b77-9e46-006e8c073c6b",
+            "created": "2023-09-10T11:15:00.000Z",
+            "modified": "2023-09-10T11:15:00.000Z",
+            "name": "Silver Spider",
+            "description": "Silver Spider is a sophisticated threat actor known for advanced persistent threats targeting government and military sectors in Asia.",
+            "aliases": [
+                "APT-37",
+                "Silver Group"
+            ],
+            "first_seen": "2020-07-01T00:00:00Z",
+            "last_seen": "2023-09-09T23:59:59Z",
+            "goals": [
+                "intelligence gathering",
+                "political manipulation"
+            ],
+            "resource_level": "nation-state",
+            "primary_motivation": "political-gain",
+            "secondary_motivations": [
+                "ideological"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--5b8a4b62-5a50-4b6b-b2c0-7e2b7e52e59b",
+            "created_by_ref": "identity--b5d4c3e2-a1f0-4e2a-bc5d-6e4f3a2b1c0d",
+            "created": "2023-10-01T12:00:00.000Z",
+            "modified": "2023-10-01T12:00:00.000Z",
+            "name": "Shadow Legion",
+            "description": "Shadow Legion is a cybercriminal organization known for conducting ransomware attacks against healthcare institutions in North America and Europe.",
+            "aliases": [
+                "S Legion",
+                "Shadow Ransom Group"
+            ],
+            "first_seen": "2022-09-15T00:00:00Z",
+            "last_seen": "2023-09-30T23:59:59Z",
+            "goals": [
+                "financial gain",
+                "disruption of services"
+            ],
+            "resource_level": "organization",
+            "primary_motivation": "financial-gain",
+            "secondary_motivations": [
+                "political-motivation"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--e4b51c2d-0b14-4d1c-8c7f-97b43e5f6c05",
+            "created_by_ref": "identity--c1e4b8b7-7c8c-4b0e-8f9e-5f1c3d8f3a0e",
+            "created": "2023-10-02T09:15:00.000Z",
+            "modified": "2023-10-02T09:15:00.000Z",
+            "name": "Eclipse Team",
+            "description": "Eclipse Team is an advanced persistent threat (APT) group believed to be state-sponsored, targeting government agencies and critical infrastructure in Western countries.",
+            "aliases": [
+                "EclipseAPT",
+                "Team Eclipse"
+            ],
+            "first_seen": "2021-05-10T00:00:00Z",
+            "last_seen": "2023-10-01T23:59:59Z",
+            "goals": [
+                "espionage",
+                "intelligence gathering"
+            ],
+            "resource_level": "nation-state",
+            "primary_motivation": "national-security",
+            "secondary_motivations": [
+                "economic-advantage"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--c4a9e57d-326e-43c7-8bce-1e7e1c9b4c6d",
+            "created_by_ref": "identity--b9a1e0d1-4c5b-4f5a-a3fa-5e9c1b2e2a3d",
+            "created": "2023-10-03T14:45:00.000Z",
+            "modified": "2023-10-03T14:45:00.000Z",
+            "name": "Phantom Hackers",
+            "description": "Phantom Hackers is a loosely affiliated group of hacktivists targeting corporations believed to be involved in environmental degradation.",
+            "aliases": [
+                "Ghost Hackers",
+                "Eco Warriors"
+            ],
+            "first_seen": "2023-01-20T00:00:00Z",
+            "last_seen": "2023-10-02T23:59:59Z",
+            "goals": [
+                "social change",
+                "environmental activism"
+            ],
+            "resource_level": "individual",
+            "primary_motivation": "ideological",
+            "secondary_motivations": [
+                "social-justice"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--b8e9c7b3-2c57-4d8b-8e6f-5b6e1c5d3b36",
+            "created_by_ref": "identity--a2c5b3d6-f3f1-4f9d-a1f7-3ef5e9b2e2b8",
+            "created": "2023-10-04T11:00:00.000Z",
+            "modified": "2023-10-04T11:00:00.000Z",
+            "name": "Red Eagle",
+            "description": "Red Eagle is a sophisticated cyber espionage group targeting defense contractors and government entities in the United States and allied nations.",
+            "aliases": [
+                "RedEagleAPT",
+                "Eagle Eye Group"
+            ],
+            "first_seen": "2020-11-05T00:00:00Z",
+            "last_seen": "2023-10-03T23:59:59Z",
+            "goals": [
+                "intelligence gathering",
+                "disruption of military operations"
+            ],
+            "resource_level": "nation-state",
+            "primary_motivation": "national-security",
+            "secondary_motivations": [
+                "military-advantage"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--d2a8f1e4-9032-431d-88f2-f7b0d7e1cc9e",
+            "created_by_ref": "identity--e1a0e2b3-5c3d-4b3a-bf7c-9c4a2e1f0e72",
+            "created": "2023-10-05T16:30:00.000Z",
+            "modified": "2023-10-05T16:30:00.000Z",
+            "name": "Cyber Phantoms",
+            "description": "Cyber Phantoms is a group targeting financial institutions in Southeast Asia and known for their use of phishing and social engineering tactics.",
+            "aliases": [
+                "Phantom Cyber Group",
+                "Phantoms"
+            ],
+            "first_seen": "2022-03-12T00:00:00Z",
+            "last_seen": "2023-10-04T23:59:59Z",
+            "goals": [
+                "financial theft",
+                "identity fraud"
+            ],
+            "resource_level": "organization",
+            "primary_motivation": "financial-gain",
+            "secondary_motivations": [
+                "identity-theft",
+                "fraud"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--76d3f2b4-8e93-4e1f-9b94-b6c5b1d0a1c7",
+            "created_by_ref": "identity--5a3d2e38-2e6f-4f63-a6d1-63cf0a4b721b",
+            "created": "2023-10-10T10:00:00.000Z",
+            "modified": "2023-10-10T10:00:00.000Z",
+            "name": "Black Phoenix",
+            "description": "Black Phoenix is a threat group known for its sophisticated cyber attacks targeting critical infrastructure sectors, particularly in North America and Europe.",
+            "aliases": [
+                "BP Group",
+                "Phoenix Team"
+            ],
+            "first_seen": "2023-01-15T00:00:00Z",
+            "last_seen": "2023-10-09T23:59:59Z",
+            "goals": [
+                "disruption of services",
+                "espionage",
+                "data exfiltration"
+            ],
+            "resource_level": "organization",
+            "primary_motivation": "political-gain",
+            "secondary_motivations": [
+                "financial-gain",
+                "strategic advantage"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--f3b4c5e9-1b3a-4c71-b8a1-34b1d5e3f64c",
+            "created_by_ref": "identity--e1a0e2b3-5c3d-4b3a-bf7c-9c4a2e1f0e72",
+            "created": "2023-10-10T10:15:00.000Z",
+            "modified": "2023-10-10T10:15:00.000Z",
+            "name": "Red Wolf",
+            "description": "Red Wolf is a cyber espionage group suspected to be affiliated with a nation-state, focusing on stealing sensitive information from government entities and defense contractors.",
+            "aliases": [
+                "RW Team",
+                "Wolf Pack"
+            ],
+            "first_seen": "2021-09-05T00:00:00Z",
+            "last_seen": "2023-10-08T23:59:59Z",
+            "goals": [
+                "intelligence gathering",
+                "information theft"
+            ],
+            "resource_level": "nation-state",
+            "primary_motivation": "national-security",
+            "secondary_motivations": [
+                "economic-gain"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--78eacecb-80f9-4230-b42b-123a18d9dce0",
+            "created": "2025-03-02T02:35:58.807828Z",
+            "modified": "2025-03-02T02:35:58.807828Z",
+            "relationship_type": "targets",
+            "description": "Global Cyber Defense Group focuses attacks on Operation Phantom Mirage",
+            "source_ref": "identity--5a3d2e38-2e6f-4f63-a6d1-63cf0a4b721b",
+            "target_ref": "campaign--c4f4e17b-8c9b-4e2e-bc10-9f9e8a4f1f4e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--819ac73e-e016-417d-8a27-05218cb0126f",
+            "created": "2025-03-02T02:35:58.807828Z",
+            "modified": "2025-03-02T02:35:58.807828Z",
+            "relationship_type": "targets",
+            "description": "Global Cyber Defense Group has been known to target Operation Silver Shield",
+            "source_ref": "identity--5a3d2e38-2e6f-4f63-a6d1-63cf0a4b721b",
+            "target_ref": "campaign--5b2e1c67-1a34-4cbb-9b8e-0c7e6c905b72"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7ccb0fe1-4ab1-499e-9b3d-71bc36c592af",
+            "created": "2025-03-02T02:35:58.808827Z",
+            "modified": "2025-03-02T02:35:58.808827Z",
+            "relationship_type": "targets",
+            "description": "Cyber Shield Solutions focuses attacks on Operation Dark Horizon",
+            "source_ref": "identity--f6c3e75d-2d8a-4b77-9e46-006e8c073c6b",
+            "target_ref": "campaign--4a8f8c2a-72b1-4f61-b1ff-7f9e8d4bce5e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--063108cb-46f4-4a89-87ea-07a2e1017e74",
+            "created": "2025-03-02T02:35:58.809827Z",
+            "modified": "2025-03-02T02:35:58.809827Z",
+            "relationship_type": "attributed-to",
+            "description": "SecureTech Solutions is attributed to Operation Golden Key",
+            "source_ref": "identity--e1a0e2b3-5c3d-4b3a-bf7c-9c4a2e1f0e72",
+            "target_ref": "campaign--3d2e5f4a-9c2b-4e40-ae2f-e3e3b5c0b4a3"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--099f7e52-e60b-4788-9150-d6891980f986",
+            "created": "2025-03-02T02:35:58.810827Z",
+            "modified": "2025-03-02T02:35:58.810827Z",
+            "relationship_type": "targets",
+            "description": "DataSafe Inc. has been known to target Operation Ransomstorm",
+            "source_ref": "identity--d3e7d52b-2e2b-4e88-bb4f-3c0bc6b5e5f3",
+            "target_ref": "campaign--d7d4cb1b-bc0d-4d23-8b3e-8b1d4e7b9e72"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fd43235d-3d75-4954-9a75-7e0ad2a779b5",
+            "created": "2025-03-02T02:35:58.810827Z",
+            "modified": "2025-03-02T02:35:58.810827Z",
+            "relationship_type": "attributed-to",
+            "description": "CyberThreat Intelligence Agency is believed to be operated by Operation Silent Whisper",
+            "source_ref": "identity--a2c5b3d6-f3f1-4f9d-a1f7-3ef5e9b2e2b8",
+            "target_ref": "campaign--4f6e5c4b-8d5f-4f1f-bc2c-1f3e7e5f5a1b"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7a66b2ca-19d6-46a0-bfc9-901b0afa2321",
+            "created": "2025-03-02T02:35:58.810827Z",
+            "modified": "2025-03-02T02:35:58.810827Z",
+            "relationship_type": "attributed-to",
+            "description": "CyberSafe Non-Profit is believed to be operated by Operation Dark Horizon",
+            "source_ref": "identity--b9a1e0d1-4c5b-4f5a-a3fa-5e9c1b2e2a3d",
+            "target_ref": "campaign--4a8f8c2a-72b1-4f61-b1ff-7f9e8d4bce5e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d7f6a92b-b000-44e1-b865-25e3e65e34d0",
+            "created": "2025-03-02T02:35:58.810827Z",
+            "modified": "2025-03-02T02:35:58.810827Z",
+            "relationship_type": "attributed-to",
+            "description": "Threat Analysis Group is connected to Operation Dark Horizon",
+            "source_ref": "identity--c1e4b8b7-7c8c-4b0e-8f9e-5f1c3d8f3a0e",
+            "target_ref": "campaign--4a8f8c2a-72b1-4f61-b1ff-7f9e8d4bce5e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--551401cb-a8f5-46cd-a6d2-391a9dedb1fa",
+            "created": "2025-03-02T02:35:58.810827Z",
+            "modified": "2025-03-02T02:35:58.810827Z",
+            "relationship_type": "targets",
+            "description": "Threat Analysis Group focuses attacks on Operation Silver Shield",
+            "source_ref": "identity--c1e4b8b7-7c8c-4b0e-8f9e-5f1c3d8f3a0e",
+            "target_ref": "campaign--5b2e1c67-1a34-4cbb-9b8e-0c7e6c905b72"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b791e78f-132d-45b4-9c02-994431238974",
+            "created": "2025-03-02T02:35:58.811826Z",
+            "modified": "2025-03-02T02:35:58.811826Z",
+            "relationship_type": "attributed-to",
+            "description": "SecureTech Innovations is believed to be operated by Operation Silent Echo",
+            "source_ref": "identity--c4f932b4-5f3a-4f56-8c5d-1a8b5e4d2f2f",
+            "target_ref": "campaign--8b1d9e5e-2f4b-4a3d-8c5c-8d5c4f4d1e77"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--043bc37c-3a65-4076-bb62-3c31d431fe36",
+            "created": "2025-03-02T02:35:58.814827Z",
+            "modified": "2025-03-02T02:35:58.814827Z",
+            "relationship_type": "targets",
+            "description": "Threat Intelligence Alliance specifically targets Operation Phantom Mirage",
+            "source_ref": "identity--9f8e7d6c-5b4a-4c3b-a2f1-0e8d7c6b5a4d",
+            "target_ref": "campaign--c4f4e17b-8c9b-4e2e-bc10-9f9e8a4f1f4e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--70e3da41-cf5e-40b4-b2a9-591f6681ea35",
+            "created": "2025-03-02T02:35:58.815827Z",
+            "modified": "2025-03-02T02:35:58.815827Z",
+            "relationship_type": "targets",
+            "description": "Advanced Threat Research Labs specifically targets Operation Golden Key",
+            "source_ref": "identity--b5d4c3e2-a1f0-4e2a-bc5d-6e4f3a2b1c0d",
+            "target_ref": "campaign--3d2e5f4a-9c2b-4e40-ae2f-e3e3b5c0b4a3"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8d21101e-c0e0-4a6a-8c61-f43bdac33f71",
+            "created": "2025-03-02T02:35:58.816889Z",
+            "modified": "2025-03-02T02:35:58.816889Z",
+            "relationship_type": "targets",
+            "description": "Advanced Threat Research Labs focuses attacks on Operation Dark Horizon",
+            "source_ref": "identity--b5d4c3e2-a1f0-4e2a-bc5d-6e4f3a2b1c0d",
+            "target_ref": "campaign--4a8f8c2a-72b1-4f61-b1ff-7f9e8d4bce5e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0e9899af-469b-4195-9940-0d5c41f9ec67",
+            "created": "2025-03-02T02:35:58.818888Z",
+            "modified": "2025-03-02T02:35:58.818888Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-7890 focuses attacks on Red Wolf",
+            "source_ref": "vulnerability--a2bc4f74-6b19-4f25-a58d-7c2d4f1a1e8b",
+            "target_ref": "intrusion-set--f3b4c5e9-1b3a-4c71-b8a1-34b1d5e3f64c"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--44d3f332-1121-4d1e-b6b8-d161bd975a76",
+            "created": "2025-03-02T02:35:58.818888Z",
+            "modified": "2025-03-02T02:35:58.818888Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-5678 has been known to target RATify",
+            "source_ref": "vulnerability--b7f1b32f-1a0c-4b79-bc69-3c7827b7e3e4",
+            "target_ref": "tool--b5e5d4a1-4c4b-4b8d-9c2a-5e6f5e7e8e9e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d0a76c6d-c840-42f7-ad3e-e059da7fab9e",
+            "created": "2025-03-02T02:35:58.818888Z",
+            "modified": "2025-03-02T02:35:58.818888Z",
+            "relationship_type": "exploits",
+            "description": "CVE-2023-5678 leverages Ransomware-X as an attack vector",
+            "source_ref": "vulnerability--b7f1b32f-1a0c-4b79-bc69-3c7827b7e3e4",
+            "target_ref": "malware--1b5a1d68-7f6e-4a2c-9baa-5e3b8c8cd31c"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ffaae0a7-18ae-42b3-bfff-b278241f0cb0",
+            "created": "2025-03-02T02:35:58.818888Z",
+            "modified": "2025-03-02T02:35:58.818888Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-6789 focuses attacks on Red Eagle",
+            "source_ref": "vulnerability--d2f3b2d3-8f1a-4c75-ab62-7e7a1a4c3c5b",
+            "target_ref": "intrusion-set--b8e9c7b3-2c57-4d8b-8e6f-5b6e1c5d3b36"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d29e7301-4f8f-42d1-a029-46c748a197a6",
+            "created": "2025-03-02T02:35:58.819888Z",
+            "modified": "2025-03-02T02:35:58.819888Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-6789 has been known to target Operation Silent Echo",
+            "source_ref": "vulnerability--d2f3b2d3-8f1a-4c75-ab62-7e7a1a4c3c5b",
+            "target_ref": "campaign--8b1d9e5e-2f4b-4a3d-8c5c-8d5c4f4d1e77"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c212daff-c21b-4a6f-8579-86a1633b8b16",
+            "created": "2025-03-02T02:35:58.840812Z",
+            "modified": "2025-03-02T02:35:58.840812Z",
+            "relationship_type": "uses",
+            "description": "Phantom Legion leverages PhishEx for their activities",
+            "source_ref": "threat-actor--d7c3f2d3-0987-4b6e-beb1-5d5b5e9a2f91",
+            "target_ref": "tool--c3f6b1be-9a6c-4b8e-8e39-bf4c1e5d8c4e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f5bf6637-1d4c-40f6-95ec-7b9242211684",
+            "created": "2025-03-02T02:35:58.851844Z",
+            "modified": "2025-03-02T02:35:58.851844Z",
+            "relationship_type": "uses",
+            "description": "Ransomware-X leverages WebSneak for their activities",
+            "source_ref": "malware--1b5a1d68-7f6e-4a2c-9baa-5e3b8c8cd31c",
+            "target_ref": "tool--a4e8d8e4-5e1f-41aa-9f5c-fcd9e2a2a4b5"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--10666d92-099a-4551-add8-e6ac24b27278",
+            "created": "2025-03-02T02:35:58.852843Z",
+            "modified": "2025-03-02T02:35:58.852843Z",
+            "relationship_type": "uses",
+            "description": "RansomCrypt utilizes DataLeak in their operations",
+            "source_ref": "malware--e1f59f0c-1e3b-4f4d-bf4b-8c5a9e8c1c7d",
+            "target_ref": "tool--d2f5e0c9-8e2d-4d6a-9f8c-e4f6a6b4b7c5"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--76f72afb-766e-417a-9cd6-7e1615b6d167",
+            "created": "2025-03-02T02:35:58.854347Z",
+            "modified": "2025-03-02T02:35:58.854347Z",
+            "relationship_type": "exploits",
+            "description": "PhishNet leverages CVE-2023-9012 as an attack vector",
+            "source_ref": "malware--f2b3e450-8b3c-4b56-bc4e-6d7e8c5b8f7a",
+            "target_ref": "vulnerability--a3e3c2f6-4f1b-4b8f-90e1-9c1e3d1f3fe2"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a57519cc-0527-4fc6-a26c-7ef89a6ea16c",
+            "created": "2025-03-02T02:35:58.854347Z",
+            "modified": "2025-03-02T02:35:58.854347Z",
+            "relationship_type": "exploits",
+            "description": "PhishNet exploits CVE-2023-6789 to gain unauthorized access",
+            "source_ref": "malware--f2b3e450-8b3c-4b56-bc4e-6d7e8c5b8f7a",
+            "target_ref": "vulnerability--d2f3b2d3-8f1a-4c75-ab62-7e7a1a4c3c5b"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--70dcf73f-42cf-4ff9-bf8c-1c0e78b30daa",
+            "created": "2025-03-02T02:35:58.854347Z",
+            "modified": "2025-03-02T02:35:58.854347Z",
+            "relationship_type": "originates-from",
+            "description": "PhishNet originates-from Operation Silver Shield",
+            "source_ref": "malware--f2b3e450-8b3c-4b56-bc4e-6d7e8c5b8f7a",
+            "target_ref": "campaign--5b2e1c67-1a34-4cbb-9b8e-0c7e6c905b72"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--37a98f51-57bd-469d-9e3f-759d4c6a680b",
+            "created": "2025-03-02T02:35:58.864871Z",
+            "modified": "2025-03-02T02:35:58.864871Z",
+            "relationship_type": "uses",
+            "description": "DataLeak leverages Ransomware X for their activities",
+            "source_ref": "tool--d2f5e0c9-8e2d-4d6a-9f8c-e4f6a6b4b7c5",
+            "target_ref": "malware--1e9b64d7-4c2b-4b99-9f7b-6e3c2b4f69f7"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bcd5fb46-9d6a-457b-bb34-9f45a43dd0cc",
+            "created": "2025-03-02T02:35:58.879319Z",
+            "modified": "2025-03-02T02:35:58.879319Z",
+            "relationship_type": "targets",
+            "description": "Operation Ransomstorm focuses attacks on CVE-2023-7890",
+            "source_ref": "campaign--d7d4cb1b-bc0d-4d23-8b3e-8b1d4e7b9e72",
+            "target_ref": "vulnerability--a2bc4f74-6b19-4f25-a58d-7c2d4f1a1e8b"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--48ed532d-b870-452e-9263-e26a9c1086a4",
+            "created": "2025-03-02T02:35:58.879319Z",
+            "modified": "2025-03-02T02:35:58.879319Z",
+            "relationship_type": "targets",
+            "description": "Operation Ransomstorm has been known to target DataSafe Inc.",
+            "source_ref": "campaign--d7d4cb1b-bc0d-4d23-8b3e-8b1d4e7b9e72",
+            "target_ref": "identity--d3e7d52b-2e2b-4e88-bb4f-3c0bc6b5e5f3"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8bff669c-1286-4ad3-8fbb-26c486c62426",
+            "created": "2025-03-02T02:35:58.88032Z",
+            "modified": "2025-03-02T02:35:58.88032Z",
+            "relationship_type": "targets",
+            "description": "Operation Phantom Network specifically targets Threat Intelligence Alliance",
+            "source_ref": "campaign--c1ed2b9b-1e3b-4c6f-bb1c-2b4b77f99d4e",
+            "target_ref": "identity--9f8e7d6c-5b4a-4c3b-a2f1-0e8d7c6b5a4d"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c4c4b0b9-748d-4c54-be22-52635522b962",
+            "created": "2025-03-02T02:35:58.881319Z",
+            "modified": "2025-03-02T02:35:58.881319Z",
+            "relationship_type": "targets",
+            "description": "Operation Silver Shield specifically targets CVE-2023-4567",
+            "source_ref": "campaign--5b2e1c67-1a34-4cbb-9b8e-0c7e6c905b72",
+            "target_ref": "vulnerability--c4f1b3f0-9e3f-43a7-9b05-df5c7c6e45a8"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5d3a3dfd-8c71-43a9-97ed-e177d225d3bb",
+            "created": "2025-03-02T02:35:58.884321Z",
+            "modified": "2025-03-02T02:35:58.884321Z",
+            "relationship_type": "attributed-to",
+            "description": "Operation Phantom Mirage is connected to Red Eagle",
+            "source_ref": "campaign--c4f4e17b-8c9b-4e2e-bc10-9f9e8a4f1f4e",
+            "target_ref": "intrusion-set--b8e9c7b3-2c57-4d8b-8e6f-5b6e1c5d3b36"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e979f396-2f0c-4939-b6f2-7b29f3fc8a18",
+            "created": "2025-03-02T02:35:58.884321Z",
+            "modified": "2025-03-02T02:35:58.884321Z",
+            "relationship_type": "uses",
+            "description": "Operation Golden Key leverages WebSneak for their activities",
+            "source_ref": "campaign--3d2e5f4a-9c2b-4e40-ae2f-e3e3b5c0b4a3",
+            "target_ref": "tool--a4e8d8e4-5e1f-41aa-9f5c-fcd9e2a2a4b5"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--94a37598-f1fc-40c7-a945-de9864e1acd5",
+            "created": "2025-03-02T02:35:58.884321Z",
+            "modified": "2025-03-02T02:35:58.884321Z",
+            "relationship_type": "indicates",
+            "description": "Suspicious URL for Operation Golden Key provides evidence of Ransomware-X",
+            "source_ref": "indicator--c2c1f34e-e8a5-4a3e-bd29-d0ae567f3a04",
+            "target_ref": "malware--1b5a1d68-7f6e-4a2c-9baa-5e3b8c8cd31c"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--06830191-afd7-4847-b5c4-ab25686f2faf",
+            "created": "2025-03-02T02:35:58.884321Z",
+            "modified": "2025-03-02T02:35:58.884321Z",
+            "relationship_type": "indicates",
+            "description": "Suspicious URL for Operation Golden Key has been associated with Operation Golden Key",
+            "source_ref": "indicator--c2c1f34e-e8a5-4a3e-bd29-d0ae567f3a04",
+            "target_ref": "campaign--3d2e5f4a-9c2b-4e40-ae2f-e3e3b5c0b4a3"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--789b3b1a-af67-45a5-ac26-e0c6a597da07",
+            "created": "2025-03-02T02:35:58.884321Z",
+            "modified": "2025-03-02T02:35:58.884321Z",
+            "relationship_type": "indicates",
+            "description": "Malicious SHA-256 Hash for Operation Silent Whisper has been associated with Red Wolf",
+            "source_ref": "indicator--d5d7d44e-4b0c-4e5f-bbd4-0e5f5b1f8a56",
+            "target_ref": "intrusion-set--f3b4c5e9-1b3a-4c71-b8a1-34b1d5e3f64c"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--98cd24fd-12c6-4e5f-bdcc-a6984acfc11b",
+            "created": "2025-03-02T02:35:58.885823Z",
+            "modified": "2025-03-02T02:35:58.885823Z",
+            "relationship_type": "indicates",
+            "description": "Suspicious Domain for Operation Golden Key suggests the presence of Operation Silent Echo",
+            "source_ref": "indicator--e4c2f4c5-2b6d-4c82-8b8d-5f3c8c1b8e9f",
+            "target_ref": "campaign--8b1d9e5e-2f4b-4a3d-8c5c-8d5c4f4d1e77"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e3a0b9be-8319-4f69-a17f-387a92de95aa",
+            "created": "2025-03-02T02:35:58.886826Z",
+            "modified": "2025-03-02T02:35:58.886826Z",
+            "relationship_type": "indicates",
+            "description": "Malicious IP Address for Operation Silent Whisper provides evidence of Ransomware-X",
+            "source_ref": "indicator--d2b5e8a4-1e4c-4e73-a3e2-9bcf4cc23db5",
+            "target_ref": "malware--1b5a1d68-7f6e-4a2c-9baa-5e3b8c8cd31c"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--11fac465-3f89-4812-8d2f-f71b01b91b70",
+            "created": "2025-03-02T02:35:58.887828Z",
+            "modified": "2025-03-02T02:35:58.887828Z",
+            "relationship_type": "indicates",
+            "description": "Malicious IP Address for Operation Silent Whisper has been associated with Cyber Phantoms",
+            "source_ref": "indicator--d2b5e8a4-1e4c-4e73-a3e2-9bcf4cc23db5",
+            "target_ref": "intrusion-set--d2a8f1e4-9032-431d-88f2-f7b0d7e1cc9e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--45451cdf-6837-4c37-a317-f1171c830f7a",
+            "created": "2025-03-02T02:35:58.887828Z",
+            "modified": "2025-03-02T02:35:58.887828Z",
+            "relationship_type": "indicates",
+            "description": "Malware Hash for Operation Ransomstorm suggests the presence of RansomCrypt",
+            "source_ref": "indicator--728c7f98-89a4-4c92-bf9e-6aaddc5c11b0",
+            "target_ref": "malware--e1f59f0c-1e3b-4f4d-bf4b-8c5a9e8c1c7d"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ae1f09c5-1be3-4df1-aa76-85766e7ea603",
+            "created": "2025-03-02T02:35:58.889827Z",
+            "modified": "2025-03-02T02:35:58.889827Z",
+            "relationship_type": "indicates",
+            "description": "Suspicious Domain for Operation Golden Key provides evidence of Operation Silent Echo",
+            "source_ref": "indicator--f4a2c1ac-2a9c-4a1e-a2b0-ef16c0e508e7",
+            "target_ref": "campaign--8b1d9e5e-2f4b-4a3d-8c5c-8d5c4f4d1e77"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--17922bfb-8949-4981-9f00-ef03014bb2f0",
+            "created": "2025-03-02T02:35:58.890828Z",
+            "modified": "2025-03-02T02:35:58.890828Z",
+            "relationship_type": "indicates",
+            "description": "Suspicious Domain for Operation Golden Key provides evidence of Cyber Phantoms",
+            "source_ref": "indicator--f4a2c1ac-2a9c-4a1e-a2b0-ef16c0e508e7",
+            "target_ref": "intrusion-set--d2a8f1e4-9032-431d-88f2-f7b0d7e1cc9e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--267118e1-6a8e-4523-8eb6-fe01523641e9",
+            "created": "2025-03-02T02:35:58.890828Z",
+            "modified": "2025-03-02T02:35:58.890828Z",
+            "relationship_type": "indicates",
+            "description": "Malware Hash for Operation Silent Whisper has been associated with Eclipse Team",
+            "source_ref": "indicator--b1f2c5e8-6b42-4e1c-8d5c-0c6c1c9f94c4",
+            "target_ref": "intrusion-set--e4b51c2d-0b14-4d1c-8c7f-97b43e5f6c05"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--faab4dda-d9f1-48e0-9bae-a517dae43e36",
+            "created": "2025-03-02T02:35:58.891828Z",
+            "modified": "2025-03-02T02:35:58.891828Z",
+            "relationship_type": "indicates",
+            "description": "Malicious IP for Operation Ransomstorm provides evidence of Eclipse Team",
+            "source_ref": "indicator--e7f3b5f6-f2e5-4e1a-a7b3-3f5e8d0e3fcb",
+            "target_ref": "intrusion-set--e4b51c2d-0b14-4d1c-8c7f-97b43e5f6c05"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a82b773c-41da-4e15-a29d-0c683745e6bf",
+            "created": "2025-03-02T02:35:58.891828Z",
+            "modified": "2025-03-02T02:35:58.891828Z",
+            "relationship_type": "indicates",
+            "description": "Suspicious File for Operation Silent Whisper provides evidence of Phantom Legion",
+            "source_ref": "indicator--a5f8d4b2-7b3e-4c1e-a3f5-2e6c43c4f6d7",
+            "target_ref": "threat-actor--d7c3f2d3-0987-4b6e-beb1-5d5b5e9a2f91"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9a031348-ecd1-4f1e-bdc3-7432d66bac88",
+            "created": "2025-03-02T02:35:58.893827Z",
+            "modified": "2025-03-02T02:35:58.893827Z",
+            "relationship_type": "part-of",
+            "description": "Dark Phantoms part-of Operation Silent Whisper",
+            "source_ref": "intrusion-set--d2c8f5c9-e2d3-4c9e-b8a1-1d7a7c3a4e2e",
+            "target_ref": "campaign--4f6e5c4b-8d5f-4f1f-bc2c-1f3e7e5f5a1b"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--52c0c9a7-5b6f-4729-b884-c330c2e59ac3",
+            "created": "2025-03-02T02:35:58.894827Z",
+            "modified": "2025-03-02T02:35:58.894827Z",
+            "relationship_type": "part-of",
+            "description": "Dark Phantoms part-of Operation Phantom Network",
+            "source_ref": "intrusion-set--d2c8f5c9-e2d3-4c9e-b8a1-1d7a7c3a4e2e",
+            "target_ref": "campaign--c1ed2b9b-1e3b-4c6f-bb1c-2b4b77f99d4e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--024ef623-fa8b-4963-a461-43ab26b8ad43",
+            "created": "2025-03-02T02:35:58.894827Z",
+            "modified": "2025-03-02T02:35:58.894827Z",
+            "relationship_type": "part-of",
+            "description": "Silver Spider part-of Operation Golden Key",
+            "source_ref": "intrusion-set--c8d2f3b5-4e0a-4c2e-9a3a-b5f7c2e3d2e2",
+            "target_ref": "campaign--3d2e5f4a-9c2b-4e40-ae2f-e3e3b5c0b4a3"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--14dc602b-11ab-4275-ad06-65af419dfc35",
+            "created": "2025-03-02T02:35:58.894827Z",
+            "modified": "2025-03-02T02:35:58.894827Z",
+            "relationship_type": "part-of",
+            "description": "Silver Spider part-of Operation Ransomstorm",
+            "source_ref": "intrusion-set--c8d2f3b5-4e0a-4c2e-9a3a-b5f7c2e3d2e2",
+            "target_ref": "campaign--d7d4cb1b-bc0d-4d23-8b3e-8b1d4e7b9e72"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5e4766de-0042-4a4c-ae39-c15e03886a6a",
+            "created": "2025-03-02T02:35:58.894827Z",
+            "modified": "2025-03-02T02:35:58.894827Z",
+            "relationship_type": "part-of",
+            "description": "Silver Spider part-of Operation Phantom Network",
+            "source_ref": "intrusion-set--c8d2f3b5-4e0a-4c2e-9a3a-b5f7c2e3d2e2",
+            "target_ref": "campaign--c1ed2b9b-1e3b-4c6f-bb1c-2b4b77f99d4e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--da585473-c73d-41cc-a77c-fc162b06bfdd",
+            "created": "2025-03-02T02:35:58.898883Z",
+            "modified": "2025-03-02T02:35:58.898883Z",
+            "relationship_type": "part-of",
+            "description": "Shadow Legion part-of Operation Data Harvest",
+            "source_ref": "intrusion-set--5b8a4b62-5a50-4b6b-b2c0-7e2b7e52e59b",
+            "target_ref": "campaign--2a0fef09-8e1b-4f7c-9f59-bbc0c1b3e3a2"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--76128ff8-08e9-4958-9365-354c74570cb4",
+            "created": "2025-03-02T02:35:58.898883Z",
+            "modified": "2025-03-02T02:35:58.898883Z",
+            "relationship_type": "part-of",
+            "description": "Eclipse Team part-of Operation Phantom Network",
+            "source_ref": "intrusion-set--e4b51c2d-0b14-4d1c-8c7f-97b43e5f6c05",
+            "target_ref": "campaign--c1ed2b9b-1e3b-4c6f-bb1c-2b4b77f99d4e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7b1e7390-1898-4706-9f85-7aecfdc4a75f",
+            "created": "2025-03-02T02:35:58.898883Z",
+            "modified": "2025-03-02T02:35:58.898883Z",
+            "relationship_type": "attributed-to",
+            "description": "Eclipse Team is connected to Phantom Legion",
+            "source_ref": "intrusion-set--e4b51c2d-0b14-4d1c-8c7f-97b43e5f6c05",
+            "target_ref": "threat-actor--d7c3f2d3-0987-4b6e-beb1-5d5b5e9a2f91"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1d002e1a-95ed-47d2-842c-97f9aaeac191",
+            "created": "2025-03-02T02:35:58.900885Z",
+            "modified": "2025-03-02T02:35:58.900885Z",
+            "relationship_type": "part-of",
+            "description": "Red Eagle part-of Operation Silver Shield",
+            "source_ref": "intrusion-set--b8e9c7b3-2c57-4d8b-8e6f-5b6e1c5d3b36",
+            "target_ref": "campaign--5b2e1c67-1a34-4cbb-9b8e-0c7e6c905b72"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1668b072-af26-45a1-88b9-f5bacd4ac721",
+            "created": "2025-03-02T02:35:58.900885Z",
+            "modified": "2025-03-02T02:35:58.900885Z",
+            "relationship_type": "part-of",
+            "description": "Red Eagle part-of Operation Silent Echo",
+            "source_ref": "intrusion-set--b8e9c7b3-2c57-4d8b-8e6f-5b6e1c5d3b36",
+            "target_ref": "campaign--8b1d9e5e-2f4b-4a3d-8c5c-8d5c4f4d1e77"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--61dca302-e6d1-4b42-a0e8-1c0882ba2f5e",
+            "created": "2025-03-02T02:35:58.901883Z",
+            "modified": "2025-03-02T02:35:58.901883Z",
+            "relationship_type": "attributed-to",
+            "description": "Cyber Phantoms is attributed to Phantom Legion",
+            "source_ref": "intrusion-set--d2a8f1e4-9032-431d-88f2-f7b0d7e1cc9e",
+            "target_ref": "threat-actor--d7c3f2d3-0987-4b6e-beb1-5d5b5e9a2f91"
+        }
+    ]
+}

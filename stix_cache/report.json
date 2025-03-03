@@ -1,0 +1,71 @@
+[
+  {
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--e9f3a2b1-9176-4c5f-8d0f-13c9f30c98d2",
+    "created": "2023-10-15T14:00:00.000Z",
+    "modified": "2023-10-15T14:00:00.000Z",
+    "name": "Malicious Credential Harvesting Campaign by Red Tigers",
+    "description": "This report analyzes a series of credential harvesting attacks attributed to the Red Tigers group, focusing on their methods and targeted sectors.",
+    "report_types": [
+      "threat-actor",
+      "campaign"
+    ],
+    "published": "2023-10-15T16:00:00Z",
+    "object_refs": [
+      "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+      "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234",
+      "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+      "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234"
+    ],
+    "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e"
+  },
+  {
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--7c3e8f40-9b89-4bc8-9d3e-ef6b4caa2a6b",
+    "created": "2023-10-16T09:30:00.000Z",
+    "modified": "2023-10-16T09:30:00.000Z",
+    "name": "Emerging Threats: Ransomware Trends 2023",
+    "description": "This report provides an overview of the latest trends in ransomware attacks, including tactics, techniques, and real-world case studies from various industries.",
+    "report_types": [
+      "threat-report",
+      "trend-analysis"
+    ],
+    "published": "2023-10-16T12:00:00Z",
+    "object_refs": [
+      "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+      "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+      "course-of-action--d5e56729-4c3b-4e2a-b3c1-6e1e56789012",
+      "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+      "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+      "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234",
+      "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e"
+    ],
+    "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e"
+  },
+  {
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--4f1e5c7b-91b1-4b74-9f43-8b2e0e9b5f01",
+    "created": "2023-10-17T11:15:00.000Z",
+    "modified": "2023-10-17T11:15:00.000Z",
+    "name": "Analysis of Phishing Techniques Targeting Financial Institutions",
+    "description": "This report delves into various phishing techniques being employed against financial institutions, highlighting the evolving tactics used by threat actors.",
+    "report_types": [
+      "threat-report",
+      "attack-pattern"
+    ],
+    "published": "2023-10-17T14:00:00Z",
+    "object_refs": [
+      "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f",
+      "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+      "course-of-action--c8f7d1b8-9d07-4e8c-b8a4-3b2b12345678",
+      "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e",
+      "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234",
+      "course-of-action--d5e56729-4c3b-4e2a-b3c1-6e1e56789012",
+      "vulnerability--8b1c3b2b-6a21-4e75-9b0f-5c7e2f8e4c6e"
+    ],
+    "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e"
+  }
+]

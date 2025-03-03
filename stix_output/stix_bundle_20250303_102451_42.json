@@ -1,0 +1,605 @@
+{
+    "type": "bundle",
+    "id": "bundle--6399abc2-2f3d-47af-8970-8c4d01b9b7cf",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-01T14:30:00.000Z",
+            "modified": "2023-10-01T14:30:00.000Z",
+            "name": "Global Defense Corp.",
+            "description": "Global Defense Corp. specializes in providing advanced cybersecurity solutions and threat intelligence services to government and military organizations worldwide.",
+            "roles": [
+                "cybersecurity-provider",
+                "threat-analyst"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "defense",
+                "government"
+            ],
+            "contact_information": "contact@globaldefense.example.com"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-01T15:00:00.000Z",
+            "modified": "2023-10-01T15:00:00.000Z",
+            "name": "SecureTech Innovations",
+            "description": "SecureTech Innovations is a startup focused on developing AI-driven security solutions for the financial sector, helping to combat fraud and cyber threats.",
+            "roles": [
+                "technology-startup",
+                "security-innovator"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "finance",
+                "technology"
+            ],
+            "contact_information": "support@securetech.example.com"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a0b83bba-7d2f-4e3c-8c3d-6f2c1e5a0dc5",
+            "created": "2023-10-01T15:30:00.000Z",
+            "modified": "2023-10-01T15:30:00.000Z",
+            "name": "Credential Dumping",
+            "description": "Credential Dumping is the act of obtaining account login and password information from the operating system and software applications. This can be achieved through various methods, such as using tools like Mimikatz to extract credentials from memory or utilizing Windows API calls.",
+            "aliases": [
+                "Credential Harvesting",
+                "Credential Extraction"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "installation"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e1f6cb4b-cb68-4e8a-a2a5-7d0c3cd4b1c6",
+            "created": "2023-10-01T15:45:00.000Z",
+            "modified": "2023-10-01T15:45:00.000Z",
+            "name": "Ransomware Deployment",
+            "description": "Ransomware Deployment involves the use of malicious software that encrypts files on a victim's system, rendering them inaccessible until a ransom is paid. Attackers may use various delivery methods, including phishing emails or exploiting software vulnerabilities.",
+            "aliases": [
+                "Crypto-Malware",
+                "File Encryption Ransomware"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b3e6e2e5-4c58-4c78-9c9e-3b8fbb0e7c02",
+            "created": "2023-10-01T16:00:00.000Z",
+            "modified": "2023-10-01T16:00:00.000Z",
+            "name": "SQL Injection",
+            "description": "SQL Injection is a code injection technique that exploits a security vulnerability in an application's software by manipulating SQL queries. An attacker can gain access to sensitive data, modify or delete database entries, or execute administrative operations on the database.",
+            "aliases": [
+                "SQLi",
+                "Database Injection"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c4e5c1e3-9c08-4d8f-bb7b-0a9102cda2d1",
+            "created": "2023-10-01T16:15:00.000Z",
+            "modified": "2023-10-01T16:15:00.000Z",
+            "name": "Command and Control over HTTPS",
+            "description": "Command and Control (C2) over HTTPS allows attackers to communicate with compromised systems securely. This method often employs legitimate services to hide traffic, making it difficult for security solutions to detect malicious activities.",
+            "aliases": [
+                "C2 over TLS",
+                "HTTPS Command and Control"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "command-and-control"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d6a5f5e6-2e25-4a0e-b7e3-8e8d0d4e8ef7",
+            "created": "2023-10-01T16:30:00.000Z",
+            "modified": "2023-10-01T16:30:00.000Z",
+            "name": "Malicious Macro Execution",
+            "description": "Malicious Macro Execution is a technique where an attacker uses macros in documents (such as Microsoft Office files) to execute harmful code when the document is opened. This method is often used in phishing campaigns to deliver malware to victims.",
+            "aliases": [
+                "Macro Exploitation",
+                "Office Document Malware"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-01T10:00:00.000Z",
+            "modified": "2023-10-01T10:00:00.000Z",
+            "name": "Phantom Menace",
+            "description": "Phantom Menace is an elusive cyber criminal group known for targeting financial institutions through sophisticated phishing campaigns and malware distribution.",
+            "threat_actor_types": [
+                "criminal",
+                "hacktivist"
+            ],
+            "aliases": [
+                "Specter Hackers",
+                "Ghost Syndicate"
+            ],
+            "roles": [
+                "financial fraudster",
+                "data thief"
+            ],
+            "goals": [
+                "financial gain",
+                "identity theft"
+            ],
+            "sophistication": "intermediate",
+            "resource_level": "individual",
+            "primary_motivation": "monetary",
+            "secondary_motivations": [
+                "disruption",
+                "exposing vulnerabilities"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-02T12:30:00.000Z",
+            "modified": "2023-10-02T12:30:00.000Z",
+            "name": "Red Tigers",
+            "description": "Red Tigers is a state-sponsored threat actor group believed to be operating on behalf of a national government, focusing on espionage against military and governmental entities.",
+            "threat_actor_types": [
+                "nation-state",
+                "espionage"
+            ],
+            "aliases": [
+                "APT 34",
+                "Tiger Team"
+            ],
+            "roles": [
+                "offensive cyber operations",
+                "intelligence gathering"
+            ],
+            "goals": [
+                "strategic espionage",
+                "data exfiltration"
+            ],
+            "sophistication": "advanced",
+            "resource_level": "government",
+            "primary_motivation": "national security",
+            "secondary_motivations": [
+                "political leverage",
+                "economic advantage"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--c8e1551c-9f3e-43f3-9f5e-0a62e7e5a2f1",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-03T14:45:00.000Z",
+            "modified": "2023-10-03T14:45:00.000Z",
+            "name": "Blue Snakes",
+            "description": "Blue Snakes is a cybercrime organization specialized in ransomware deployment, often targeting healthcare and educational institutions.",
+            "threat_actor_types": [
+                "criminal"
+            ],
+            "aliases": [
+                "Ransomware Kings",
+                "Lockdown Crew"
+            ],
+            "roles": [
+                "malware distributor",
+                "extortionist"
+            ],
+            "goals": [
+                "financial gain",
+                "disruption of services"
+            ],
+            "sophistication": "high",
+            "resource_level": "organized crime",
+            "primary_motivation": "monetary",
+            "secondary_motivations": [
+                "chaos",
+                "revenge"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--6b5f7fbd-5c3e-4c56-8f0f-f6a5d2a1f3e2",
+            "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-04T09:15:00.000Z",
+            "modified": "2023-10-04T09:15:00.000Z",
+            "name": "Green Lanterns",
+            "description": "Green Lanterns is a hacktivist group known for their campaigns against corporations perceived as environmentally harmful, utilizing DDoS attacks and website defacements.",
+            "threat_actor_types": [
+                "hacktivist"
+            ],
+            "aliases": [
+                "Eco Warriors",
+                "Green Hackers"
+            ],
+            "roles": [
+                "cyber protestor",
+                "activist"
+            ],
+            "goals": [
+                "raising awareness",
+                "disrupting harmful practices"
+            ],
+            "sophistication": "beginner",
+            "resource_level": "group",
+            "primary_motivation": "ideological",
+            "secondary_motivations": [
+                "social impact",
+                "community engagement"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9",
+            "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-10T12:00:00.000Z",
+            "modified": "2023-10-10T12:00:00.000Z",
+            "name": "Ransomware XYZ",
+            "description": "Ransomware XYZ is a highly aggressive ransomware variant that encrypts user files and demands payment in cryptocurrency for decryption keys.",
+            "malware_types": [
+                "ransomware"
+            ],
+            "is_family": false,
+            "aliases": [
+                "XYZ Locker",
+                "CryptoXYZ"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "installation"
+                }
+            ],
+            "architecture_execution_envs": [
+                "x86",
+                "x64"
+            ],
+            "implementation_languages": [
+                "C#",
+                "Java"
+            ],
+            "capabilities": [
+                "file encryption",
+                "data exfiltration",
+                "ransom demand"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da",
+            "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-05T17:30:00.000Z",
+            "modified": "2023-10-05T17:30:00.000Z",
+            "name": "Phishing Kit 2.0",
+            "description": "Phishing Kit 2.0 is a sophisticated toolkit designed to facilitate phishing attacks by mimicking legitimate login pages and harvesting credentials.",
+            "malware_types": [
+                "phishing"
+            ],
+            "is_family": true,
+            "aliases": [
+                "PhishKit",
+                "Credential Harvester"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                }
+            ],
+            "architecture_execution_envs": [
+                "linux",
+                "windows"
+            ],
+            "implementation_languages": [
+                "PHP",
+                "JavaScript"
+            ],
+            "capabilities": [
+                "credential theft",
+                "data exfiltration"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--7e5c5e4d-2b2b-4d6c-bf0b-1a0e5c2a1b61",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-07T09:45:00.000Z",
+            "modified": "2023-10-07T09:45:00.000Z",
+            "name": "Trojan Horse A",
+            "description": "Trojan Horse A is a malicious software that disguises itself as a legitimate application while performing unauthorized actions on the infected system.",
+            "malware_types": [
+                "trojan"
+            ],
+            "is_family": false,
+            "aliases": [
+                "Trojan A",
+                "Backdoor A"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "installation"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "architecture_execution_envs": [
+                "windows",
+                "macos"
+            ],
+            "implementation_languages": [
+                "Python",
+                "C++"
+            ],
+            "capabilities": [
+                "remote access",
+                "data exfiltration",
+                "system manipulation"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--557533d4-aa44-4dc9-8a81-f4e81a629f44",
+            "created": "2025-03-03T15:24:51.697099Z",
+            "modified": "2025-03-03T15:24:51.697099Z",
+            "relationship_type": "attributed-to",
+            "description": "Global Defense Corp. is attributed to Phantom Menace",
+            "source_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--381ce452-fcad-489a-917e-9cd6643f4be1",
+            "created": "2025-03-03T15:24:51.697099Z",
+            "modified": "2025-03-03T15:24:51.697099Z",
+            "relationship_type": "attributed-to",
+            "description": "Global Defense Corp. is attributed to Blue Snakes",
+            "source_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "target_ref": "threat-actor--c8e1551c-9f3e-43f3-9f5e-0a62e7e5a2f1"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--630abcad-e8fe-4b98-a5ae-c9afc7f75b73",
+            "created": "2025-03-03T15:24:51.697099Z",
+            "modified": "2025-03-03T15:24:51.697099Z",
+            "relationship_type": "attributed-to",
+            "description": "Global Defense Corp. is attributed to Red Tigers",
+            "source_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "target_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--42ef1cc4-9722-423a-bd76-4943042b8ef2",
+            "created": "2025-03-03T15:24:51.698099Z",
+            "modified": "2025-03-03T15:24:51.698099Z",
+            "relationship_type": "attributed-to",
+            "description": "SecureTech Innovations is connected to Red Tigers",
+            "source_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "target_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--03569520-5992-499d-b596-17a661bb41b9",
+            "created": "2025-03-03T15:24:51.698099Z",
+            "modified": "2025-03-03T15:24:51.698099Z",
+            "relationship_type": "attributed-to",
+            "description": "Phantom Menace is connected to Global Defense Corp.",
+            "source_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+            "target_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3ab5e883-7db1-4f41-936e-145ab6d5017b",
+            "created": "2025-03-03T15:24:51.698099Z",
+            "modified": "2025-03-03T15:24:51.698099Z",
+            "relationship_type": "uses",
+            "description": "Phantom Menace leverages Phishing Kit 2.0 for their activities",
+            "source_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+            "target_ref": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f6919431-433a-4741-8e93-6b65e88ba094",
+            "created": "2025-03-03T15:24:51.698099Z",
+            "modified": "2025-03-03T15:24:51.698099Z",
+            "relationship_type": "uses",
+            "description": "Phantom Menace leverages Ransomware Deployment for their activities",
+            "source_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+            "target_ref": "attack-pattern--e1f6cb4b-cb68-4e8a-a2a5-7d0c3cd4b1c6"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--522e79ab-d196-4133-9b7f-7bf99b587fd4",
+            "created": "2025-03-03T15:24:51.698099Z",
+            "modified": "2025-03-03T15:24:51.698099Z",
+            "relationship_type": "uses",
+            "description": "Red Tigers leverages Malicious Macro Execution for their activities",
+            "source_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f",
+            "target_ref": "attack-pattern--d6a5f5e6-2e25-4a0e-b7e3-8e8d0d4e8ef7"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c808794b-4d9f-4187-a54b-331498094027",
+            "created": "2025-03-03T15:24:51.698099Z",
+            "modified": "2025-03-03T15:24:51.698099Z",
+            "relationship_type": "uses",
+            "description": "Red Tigers has been observed using Ransomware Deployment",
+            "source_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f",
+            "target_ref": "attack-pattern--e1f6cb4b-cb68-4e8a-a2a5-7d0c3cd4b1c6"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--135fde1d-954b-4524-8b9f-47a14ac154ec",
+            "created": "2025-03-03T15:24:51.698099Z",
+            "modified": "2025-03-03T15:24:51.698099Z",
+            "relationship_type": "uses",
+            "description": "Red Tigers utilizes Ransomware XYZ in their operations",
+            "source_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f",
+            "target_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3e5e588c-7113-4a4a-a0a5-dec9dfb13f31",
+            "created": "2025-03-03T15:24:51.698099Z",
+            "modified": "2025-03-03T15:24:51.698099Z",
+            "relationship_type": "uses",
+            "description": "Blue Snakes has been observed using Malicious Macro Execution",
+            "source_ref": "threat-actor--c8e1551c-9f3e-43f3-9f5e-0a62e7e5a2f1",
+            "target_ref": "attack-pattern--d6a5f5e6-2e25-4a0e-b7e3-8e8d0d4e8ef7"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--08e17a50-13d8-4375-a19a-16210036f7a1",
+            "created": "2025-03-03T15:24:51.698099Z",
+            "modified": "2025-03-03T15:24:51.698099Z",
+            "relationship_type": "uses",
+            "description": "Green Lanterns has been observed using Credential Dumping",
+            "source_ref": "threat-actor--6b5f7fbd-5c3e-4c56-8f0f-f6a5d2a1f3e2",
+            "target_ref": "attack-pattern--a0b83bba-7d2f-4e3c-8c3d-6f2c1e5a0dc5"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6dd7311f-4377-4571-addd-58fd9fae44ca",
+            "created": "2025-03-03T15:24:51.698099Z",
+            "modified": "2025-03-03T15:24:51.698099Z",
+            "relationship_type": "uses",
+            "description": "Green Lanterns utilizes Ransomware Deployment in their operations",
+            "source_ref": "threat-actor--6b5f7fbd-5c3e-4c56-8f0f-f6a5d2a1f3e2",
+            "target_ref": "attack-pattern--e1f6cb4b-cb68-4e8a-a2a5-7d0c3cd4b1c6"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cacdd60e-6a4d-4b19-85a5-3641b82300b8",
+            "created": "2025-03-03T15:24:51.6991Z",
+            "modified": "2025-03-03T15:24:51.6991Z",
+            "relationship_type": "authored-by",
+            "description": "Ransomware XYZ authored-by Red Tigers",
+            "source_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9",
+            "target_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4c39d4b9-d6e4-4d58-9f8b-3b30c7fea780",
+            "created": "2025-03-03T15:24:51.6991Z",
+            "modified": "2025-03-03T15:24:51.6991Z",
+            "relationship_type": "authored-by",
+            "description": "Phishing Kit 2.0 authored-by Phantom Menace",
+            "source_ref": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2769d4b5-2007-45f2-943a-e99ae07ec621",
+            "created": "2025-03-03T15:24:51.6991Z",
+            "modified": "2025-03-03T15:24:51.6991Z",
+            "relationship_type": "uses",
+            "description": "Phishing Kit 2.0 leverages Malicious Macro Execution for their activities",
+            "source_ref": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da",
+            "target_ref": "attack-pattern--d6a5f5e6-2e25-4a0e-b7e3-8e8d0d4e8ef7"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9dd1e432-04aa-470e-9624-83c249f79feb",
+            "created": "2025-03-03T15:24:51.6991Z",
+            "modified": "2025-03-03T15:24:51.6991Z",
+            "relationship_type": "authored-by",
+            "description": "Trojan Horse A authored-by Green Lanterns",
+            "source_ref": "malware--7e5c5e4d-2b2b-4d6c-bf0b-1a0e5c2a1b61",
+            "target_ref": "threat-actor--6b5f7fbd-5c3e-4c56-8f0f-f6a5d2a1f3e2"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--10b93996-29f2-44c5-bede-d1a752593a1b",
+            "created": "2025-03-03T15:24:51.6991Z",
+            "modified": "2025-03-03T15:24:51.6991Z",
+            "relationship_type": "uses",
+            "description": "Trojan Horse A utilizes Ransomware Deployment in their operations",
+            "source_ref": "malware--7e5c5e4d-2b2b-4d6c-bf0b-1a0e5c2a1b61",
+            "target_ref": "attack-pattern--e1f6cb4b-cb68-4e8a-a2a5-7d0c3cd4b1c6"
+        }
+    ]
+}

@@ -1,0 +1,1090 @@
+{
+    "type": "bundle",
+    "id": "bundle--8d4856d8-dce3-4d9d-abca-57fea5c2778d",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-01T14:30:00.000Z",
+            "modified": "2023-10-01T14:30:00.000Z",
+            "name": "Global Defense Corp.",
+            "description": "Global Defense Corp. specializes in providing advanced cybersecurity solutions and threat intelligence services to government and military organizations worldwide.",
+            "roles": [
+                "cybersecurity-provider",
+                "threat-analyst"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "defense",
+                "government"
+            ],
+            "contact_information": "contact@globaldefense.example.com"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-01T15:00:00.000Z",
+            "modified": "2023-10-01T15:00:00.000Z",
+            "name": "SecureTech Innovations",
+            "description": "SecureTech Innovations is a startup focused on developing AI-driven security solutions for the financial sector, helping to combat fraud and cyber threats.",
+            "roles": [
+                "technology-startup",
+                "security-innovator"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "finance",
+                "technology"
+            ],
+            "contact_information": "support@securetech.example.com"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "created": "2023-10-05T10:00:00.000Z",
+            "modified": "2023-10-05T10:00:00.000Z",
+            "name": "CyberShield Technologies",
+            "description": "CyberShield Technologies is a prominent cybersecurity firm that provides comprehensive security solutions and consulting services to enterprises across various sectors, focusing on risk management and threat mitigation.",
+            "roles": [
+                "cybersecurity-consultant",
+                "threat-response-provider"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "technology",
+                "healthcare",
+                "education"
+            ],
+            "contact_information": "contact@cybershieldtech.example.com"
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e",
+            "created": "2023-10-10T12:00:00.000Z",
+            "modified": "2023-10-10T12:00:00.000Z",
+            "name": "CVE-2023-5678",
+            "description": "A SQL injection vulnerability in the customer management module of ABC Retail Software versions 1.0 to 1.5 allows remote attackers to execute arbitrary SQL commands via crafted HTTP requests.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-5678"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--8b1c3b2b-6a21-4e75-9b0f-5c7e2f8e4c6e",
+            "created": "2023-10-08T09:30:00.000Z",
+            "modified": "2023-10-08T09:30:00.000Z",
+            "name": "CVE-2023-9101",
+            "description": "A cross-site scripting (XSS) vulnerability in the web interface of XYZ File Sharing Service versions 3.0 to 3.3 allows attackers to inject arbitrary web scripts into the user interface, affecting end-user sessions.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-9101"
+                }
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--12fcbfd0-7a2e-42b3-bb4f-0a6525a4e0ae",
+            "created": "2023-10-12T14:45:00.000Z",
+            "modified": "2023-10-12T14:45:00.000Z",
+            "name": "CVE-2023-3456",
+            "description": "A privilege escalation vulnerability in the authentication module of DEF Network Security Tool versions 2.2 to 2.8 allows local attackers to gain elevated privileges by exploiting improper input validation.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2023-3456"
+                }
+            ]
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--f1a3b3e9-63e2-4c9b-95e3-5c7e12345678",
+            "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "created": "2023-10-12T15:00:00.000Z",
+            "modified": "2023-10-12T15:00:00.000Z",
+            "name": "Patch Vulnerability CVE-2023-9101",
+            "description": "Apply the security patch released for CVE-2023-9101 to mitigate the cross-site scripting vulnerability in the web interface of XYZ File Sharing Service."
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--d5e56729-4c3b-4e2a-b3c1-6e1e56789012",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-12T15:30:00.000Z",
+            "modified": "2023-10-12T15:30:00.000Z",
+            "name": "Restrict Access for CVE-2023-3456",
+            "description": "Implement access controls to limit user permissions and prevent privilege escalation vulnerabilities associated with CVE-2023-3456 in DEF Network Security Tool."
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--c8f7d1b8-9d07-4e8c-b8a4-3b2b12345678",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-12T16:00:00.000Z",
+            "modified": "2023-10-12T16:00:00.000Z",
+            "name": "Input Validation for SQL Injection",
+            "description": "Enhance input validation mechanisms in the customer management module of ABC Retail Software to prevent SQL injection attacks as identified in CVE-2023-5678."
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-01T10:00:00.000Z",
+            "modified": "2023-10-01T10:00:00.000Z",
+            "name": "Phantom Menace",
+            "description": "Phantom Menace is an elusive cyber criminal group known for targeting financial institutions through sophisticated phishing campaigns and malware distribution.",
+            "threat_actor_types": [
+                "criminal",
+                "hacktivist"
+            ],
+            "aliases": [
+                "Specter Hackers",
+                "Ghost Syndicate"
+            ],
+            "roles": [
+                "financial fraudster",
+                "data thief"
+            ],
+            "goals": [
+                "financial gain",
+                "identity theft"
+            ],
+            "sophistication": "intermediate",
+            "resource_level": "individual",
+            "primary_motivation": "monetary",
+            "secondary_motivations": [
+                "disruption",
+                "exposing vulnerabilities"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-02T12:30:00.000Z",
+            "modified": "2023-10-02T12:30:00.000Z",
+            "name": "Red Tigers",
+            "description": "Red Tigers is a state-sponsored threat actor group believed to be operating on behalf of a national government, focusing on espionage against military and governmental entities.",
+            "threat_actor_types": [
+                "nation-state",
+                "espionage"
+            ],
+            "aliases": [
+                "APT 34",
+                "Tiger Team"
+            ],
+            "roles": [
+                "offensive cyber operations",
+                "intelligence gathering"
+            ],
+            "goals": [
+                "strategic espionage",
+                "data exfiltration"
+            ],
+            "sophistication": "advanced",
+            "resource_level": "government",
+            "primary_motivation": "national security",
+            "secondary_motivations": [
+                "political leverage",
+                "economic advantage"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77",
+            "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "created": "2023-10-12T10:00:00.000Z",
+            "modified": "2023-10-12T10:00:00.000Z",
+            "name": "Suspicious Domain for Phishing Campaign",
+            "description": "This domain has been linked to a phishing campaign targeting financial institutions. Users attempting to access this domain may be at risk of credential theft.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value = 'secure-login-bank.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-12T10:00:00Z",
+            "valid_until": "2024-10-12T10:00:00Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234",
+            "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "created": "2023-10-12T11:00:00.000Z",
+            "modified": "2023-10-12T11:00:00.000Z",
+            "name": "Malicious IP Address for Data Exfiltration",
+            "description": "This IP address is associated with data exfiltration activities observed in various incidents involving ransomware. Blocking this IP is recommended to prevent potential breaches.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ipv4-addr:value = '192.0.2.42']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-12T11:00:00Z",
+            "valid_until": "2024-10-12T11:00:00Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exfiltration"
+                }
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--e9f3a2b1-9176-4c5f-8d0f-13c9f30c98d2",
+            "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-15T14:00:00.000Z",
+            "modified": "2023-10-15T14:00:00.000Z",
+            "name": "Malicious Credential Harvesting Campaign by Red Tigers",
+            "description": "This report analyzes a series of credential harvesting attacks attributed to the Red Tigers group, focusing on their methods and targeted sectors.",
+            "report_types": [
+                "threat-actor",
+                "campaign"
+            ],
+            "published": "2023-10-15T16:00:00Z",
+            "object_refs": [
+                "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+                "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234",
+                "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+                "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234"
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--7c3e8f40-9b89-4bc8-9d3e-ef6b4caa2a6b",
+            "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "created": "2023-10-16T09:30:00.000Z",
+            "modified": "2023-10-16T09:30:00.000Z",
+            "name": "Emerging Threats: Ransomware Trends 2023",
+            "description": "This report provides an overview of the latest trends in ransomware attacks, including tactics, techniques, and real-world case studies from various industries.",
+            "report_types": [
+                "threat-report",
+                "trend-analysis"
+            ],
+            "published": "2023-10-16T12:00:00Z",
+            "object_refs": [
+                "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+                "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+                "course-of-action--d5e56729-4c3b-4e2a-b3c1-6e1e56789012",
+                "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+                "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+                "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234",
+                "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e"
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--4f1e5c7b-91b1-4b74-9f43-8b2e0e9b5f01",
+            "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-17T11:15:00.000Z",
+            "modified": "2023-10-17T11:15:00.000Z",
+            "name": "Analysis of Phishing Techniques Targeting Financial Institutions",
+            "description": "This report delves into various phishing techniques being employed against financial institutions, highlighting the evolving tactics used by threat actors.",
+            "report_types": [
+                "threat-report",
+                "attack-pattern"
+            ],
+            "published": "2023-10-17T14:00:00Z",
+            "object_refs": [
+                "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f",
+                "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+                "course-of-action--c8f7d1b8-9d07-4e8c-b8a4-3b2b12345678",
+                "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e",
+                "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234",
+                "course-of-action--d5e56729-4c3b-4e2a-b3c1-6e1e56789012",
+                "vulnerability--8b1c3b2b-6a21-4e75-9b0f-5c7e2f8e4c6e"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9",
+            "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-10T12:00:00.000Z",
+            "modified": "2023-10-10T12:00:00.000Z",
+            "name": "Ransomware XYZ",
+            "description": "Ransomware XYZ is a highly aggressive ransomware variant that encrypts user files and demands payment in cryptocurrency for decryption keys.",
+            "malware_types": [
+                "ransomware"
+            ],
+            "is_family": false,
+            "aliases": [
+                "XYZ Locker",
+                "CryptoXYZ"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "installation"
+                }
+            ],
+            "architecture_execution_envs": [
+                "x86",
+                "x64"
+            ],
+            "implementation_languages": [
+                "C#",
+                "Java"
+            ],
+            "capabilities": [
+                "file encryption",
+                "data exfiltration",
+                "ransom demand"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da",
+            "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-05T17:30:00.000Z",
+            "modified": "2023-10-05T17:30:00.000Z",
+            "name": "Phishing Kit 2.0",
+            "description": "Phishing Kit 2.0 is a sophisticated toolkit designed to facilitate phishing attacks by mimicking legitimate login pages and harvesting credentials.",
+            "malware_types": [
+                "phishing"
+            ],
+            "is_family": true,
+            "aliases": [
+                "PhishKit",
+                "Credential Harvester"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                }
+            ],
+            "architecture_execution_envs": [
+                "linux",
+                "windows"
+            ],
+            "implementation_languages": [
+                "PHP",
+                "JavaScript"
+            ],
+            "capabilities": [
+                "credential theft",
+                "data exfiltration"
+            ]
+        },
+        {
+            "type": "tool",
+            "spec_version": "2.1",
+            "id": "tool--c1d6b5e9-7ba7-4c23-bd84-63af8fefb4c6",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-01T10:00:00.000Z",
+            "modified": "2023-10-01T10:00:00.000Z",
+            "name": "Phantom Injector",
+            "description": "Phantom Injector is a sophisticated tool used for injecting malicious code into legitimate applications, primarily utilized in advanced persistent threat (APT) operations.",
+            "tool_types": [
+                "exploitation-tool"
+            ],
+            "aliases": [
+                "PhantomInject"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "delivery"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exploitation"
+                }
+            ],
+            "tool_version": "1.0.0"
+        },
+        {
+            "type": "tool",
+            "spec_version": "2.1",
+            "id": "tool--72b8b4d7-4f67-4a2e-99d7-cd2cbf342d2f",
+            "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-05T12:00:00.000Z",
+            "modified": "2023-10-05T12:00:00.000Z",
+            "name": "Credential Grabber",
+            "description": "Credential Grabber is a phishing tool designed to harvest user credentials from various online platforms through deceptive login pages and social engineering tactics.",
+            "tool_types": [
+                "phishing-tool"
+            ],
+            "aliases": [
+                "CredGrabber"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "reconnaissance"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "action-on-objectives"
+                }
+            ],
+            "tool_version": "3.2.1"
+        },
+        {
+            "type": "tool",
+            "spec_version": "2.1",
+            "id": "tool--e8e59e8a-e32f-4c25-8d3c-bb6b7e6f6fb7",
+            "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "created": "2023-10-10T15:00:00.000Z",
+            "modified": "2023-10-10T15:00:00.000Z",
+            "name": "Exfiltrator Pro",
+            "description": "Exfiltrator Pro is a data exfiltration tool that enables threat actors to stealthily transfer sensitive data from compromised systems to remote servers, avoiding detection by traditional security measures.",
+            "tool_types": [
+                "data-exfiltration-tool"
+            ],
+            "aliases": [
+                "ExfilPro"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "exfiltration"
+                },
+                {
+                    "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                    "phase_name": "installation"
+                }
+            ],
+            "tool_version": "4.1.0"
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--b1a5e5c5-4b5d-4d8c-bf65-8fc5e5c5a1f1",
+            "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "created": "2023-10-15T09:00:00.000Z",
+            "modified": "2023-10-15T09:00:00.000Z",
+            "name": "Silent Specter",
+            "description": "Silent Specter is an advanced persistent threat (APT) group focusing on espionage against government and military organizations in Eastern Europe. They utilize sophisticated malware and social engineering techniques.",
+            "aliases": [
+                "APT28",
+                "Fancy Bear"
+            ],
+            "first_seen": "2021-04-10T00:00:00Z",
+            "last_seen": "2023-10-14T23:59:59Z",
+            "goals": [
+                "intelligence gathering",
+                "disruption of military operations"
+            ],
+            "resource_level": "state-sponsored",
+            "primary_motivation": "political-gain",
+            "secondary_motivations": [
+                "economic-gain"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--c2c5b4d7-6a8e-4f6a-b6e5-fd2e5d7a9c3d",
+            "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-15T09:00:00.000Z",
+            "modified": "2023-10-15T09:00:00.000Z",
+            "name": "Red Phoenix",
+            "description": "Red Phoenix is a cybercriminal group known for ransomware attacks targeting healthcare organizations in North America. They are notorious for exploiting vulnerabilities in outdated systems to gain access and encrypt sensitive data.",
+            "aliases": [
+                "Ransomware Gang",
+                "Healthcare Hackers"
+            ],
+            "first_seen": "2022-01-15T00:00:00Z",
+            "last_seen": "2023-10-10T23:59:59Z",
+            "goals": [
+                "financial gain",
+                "exfiltration of sensitive data"
+            ],
+            "resource_level": "organization",
+            "primary_motivation": "financial-gain",
+            "secondary_motivations": [
+                "disruption",
+                "chaos"
+            ]
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92",
+            "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "created": "2023-10-15T10:00:00.000Z",
+            "modified": "2023-10-15T10:00:00.000Z",
+            "name": "Operation Nightshade",
+            "description": "A series of cyberattacks targeting healthcare facilities across North America, aiming to disrupt services and steal patient data.",
+            "aliases": [
+                "OpNightshade",
+                "Healthcare Disruption Campaign"
+            ],
+            "first_seen": "2023-08-01T00:00:00Z",
+            "last_seen": "2023-10-10T23:59:59Z",
+            "objective": "Compromise healthcare systems to extract sensitive patient information for sale on the dark web."
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--bdc2d3c0-8b4c-4f3a-a1ab-1c2d3d6c3b08",
+            "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "created": "2023-10-15T10:15:00.000Z",
+            "modified": "2023-10-15T10:15:00.000Z",
+            "name": "Operation Phantom Shadow",
+            "description": "A coordinated espionage campaign targeting government contractors in the defense sector, utilizing advanced phishing techniques.",
+            "aliases": [
+                "OpPhantomShadow",
+                "Defense Contractor Espionage"
+            ],
+            "first_seen": "2023-09-05T00:00:00Z",
+            "last_seen": "2023-10-12T23:59:59Z",
+            "objective": "Steal sensitive defense-related documents and intellectual property from contractors."
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--92c53911-77eb-496f-9e6b-8da1a9ff46a1",
+            "created": "2025-03-03T15:38:41.803954Z",
+            "modified": "2025-03-03T15:38:41.803954Z",
+            "relationship_type": "attributed-to",
+            "description": "Global Defense Corp. is believed to be operated by Phantom Menace",
+            "source_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f60154a1-1038-4784-9628-24a88b2d7fa9",
+            "created": "2025-03-03T15:38:41.803954Z",
+            "modified": "2025-03-03T15:38:41.803954Z",
+            "relationship_type": "attributed-to",
+            "description": "SecureTech Innovations is believed to be operated by Operation Nightshade",
+            "source_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e",
+            "target_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4e9c56b2-a5c6-49dd-a0fc-49b47bb42ed0",
+            "created": "2025-03-03T15:38:41.803954Z",
+            "modified": "2025-03-03T15:38:41.803954Z",
+            "relationship_type": "attributed-to",
+            "description": "CyberShield Technologies is connected to Operation Nightshade",
+            "source_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "target_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3830d947-8367-453a-9690-32b5f05234b4",
+            "created": "2025-03-03T15:38:41.803954Z",
+            "modified": "2025-03-03T15:38:41.803954Z",
+            "relationship_type": "attributed-to",
+            "description": "CyberShield Technologies is attributed to Phantom Menace",
+            "source_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1ffea14a-046b-4ea2-8c6d-470a547ee894",
+            "created": "2025-03-03T15:38:41.803954Z",
+            "modified": "2025-03-03T15:38:41.803954Z",
+            "relationship_type": "targets",
+            "description": "CyberShield Technologies has been known to target Operation Nightshade",
+            "source_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e",
+            "target_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f78e4eb4-3dfb-452a-b199-d02de7d49d15",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-5678 focuses attacks on Red Tigers",
+            "source_ref": "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e",
+            "target_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--05af2d8c-b7e8-4b54-98e6-6c09a0436352",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-9101 focuses attacks on Credential Grabber",
+            "source_ref": "vulnerability--8b1c3b2b-6a21-4e75-9b0f-5c7e2f8e4c6e",
+            "target_ref": "tool--72b8b4d7-4f67-4a2e-99d7-cd2cbf342d2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f75c886d-09a8-46fd-8623-aed05fb443b2",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-9101 specifically targets Red Tigers",
+            "source_ref": "vulnerability--8b1c3b2b-6a21-4e75-9b0f-5c7e2f8e4c6e",
+            "target_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--84a4a7a9-2a9e-44d1-ada8-70a9cf4c3bc2",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-9101 specifically targets Red Phoenix",
+            "source_ref": "vulnerability--8b1c3b2b-6a21-4e75-9b0f-5c7e2f8e4c6e",
+            "target_ref": "intrusion-set--c2c5b4d7-6a8e-4f6a-b6e5-fd2e5d7a9c3d"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--52970ff4-579e-49a6-b68e-f87b444eed2c",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "exploits",
+            "description": "CVE-2023-3456 exploits Phishing Kit 2.0 to gain unauthorized access",
+            "source_ref": "vulnerability--12fcbfd0-7a2e-42b3-bb4f-0a6525a4e0ae",
+            "target_ref": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e72b03d0-da76-4fec-afbc-c7969ecf504e",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-3456 specifically targets Exfiltrator Pro",
+            "source_ref": "vulnerability--12fcbfd0-7a2e-42b3-bb4f-0a6525a4e0ae",
+            "target_ref": "tool--e8e59e8a-e32f-4c25-8d3c-bb6b7e6f6fb7"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5b3876d9-95d0-4974-abf4-3c5b958ac898",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "targets",
+            "description": "CVE-2023-3456 specifically targets Ransomware XYZ",
+            "source_ref": "vulnerability--12fcbfd0-7a2e-42b3-bb4f-0a6525a4e0ae",
+            "target_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--44799557-9da1-418c-ab93-bec565776f53",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "remediates",
+            "description": "Patch Vulnerability CVE-2023-9101 remediates Ransomware XYZ",
+            "source_ref": "course-of-action--f1a3b3e9-63e2-4c9b-95e3-5c7e12345678",
+            "target_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9954bed8-7c4b-40e4-a391-8a3d002937dc",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "remediates",
+            "description": "Patch Vulnerability CVE-2023-9101 remediates CVE-2023-9101",
+            "source_ref": "course-of-action--f1a3b3e9-63e2-4c9b-95e3-5c7e12345678",
+            "target_ref": "vulnerability--8b1c3b2b-6a21-4e75-9b0f-5c7e2f8e4c6e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--019c5135-b6ad-4906-b27d-44192f1ad362",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "remediates",
+            "description": "Restrict Access for CVE-2023-3456 remediates Phishing Kit 2.0",
+            "source_ref": "course-of-action--d5e56729-4c3b-4e2a-b3c1-6e1e56789012",
+            "target_ref": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--afcf0cd3-3c7a-446c-87ce-183976f3a7d7",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "mitigates",
+            "description": "Restrict Access for CVE-2023-3456 can be used to counter Malicious IP Address for Data Exfiltration",
+            "source_ref": "course-of-action--d5e56729-4c3b-4e2a-b3c1-6e1e56789012",
+            "target_ref": "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--87078b42-ab48-4b09-aed8-bc6d49208647",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "mitigates",
+            "description": "Input Validation for SQL Injection can be used to counter Credential Grabber",
+            "source_ref": "course-of-action--c8f7d1b8-9d07-4e8c-b8a4-3b2b12345678",
+            "target_ref": "tool--72b8b4d7-4f67-4a2e-99d7-cd2cbf342d2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f2d00dfe-e55c-42e8-a837-3fcedd4810e8",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "mitigates",
+            "description": "Input Validation for SQL Injection helps prevent Suspicious Domain for Phishing Campaign",
+            "source_ref": "course-of-action--c8f7d1b8-9d07-4e8c-b8a4-3b2b12345678",
+            "target_ref": "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6692d78e-38fb-47f1-80a4-b907a065f2ed",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "mitigates",
+            "description": "Input Validation for SQL Injection can be used to counter Phantom Injector",
+            "source_ref": "course-of-action--c8f7d1b8-9d07-4e8c-b8a4-3b2b12345678",
+            "target_ref": "tool--c1d6b5e9-7ba7-4c23-bd84-63af8fefb4c6"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b3e29a8f-f388-4a59-97b8-863eeedd6481",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "uses",
+            "description": "Phantom Menace has been observed using Ransomware XYZ",
+            "source_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+            "target_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f282221f-1010-4849-bca7-eba2c4f9650a",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "attributed-to",
+            "description": "Phantom Menace is believed to be operated by CyberShield Technologies",
+            "source_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+            "target_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8b5fd615-4503-4a2f-a151-119d6e65dd05",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "uses",
+            "description": "Phantom Menace leverages Exfiltrator Pro for their activities",
+            "source_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+            "target_ref": "tool--e8e59e8a-e32f-4c25-8d3c-bb6b7e6f6fb7"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--00d472e1-a994-453e-8870-684dcbd850dc",
+            "created": "2025-03-03T15:38:41.804954Z",
+            "modified": "2025-03-03T15:38:41.804954Z",
+            "relationship_type": "targets",
+            "description": "Red Tigers specifically targets CVE-2023-5678",
+            "source_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f",
+            "target_ref": "vulnerability--3a6d0b4c-64b4-4c6e-b5c3-3e8d8d154c9e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8990dcd3-9a95-4e9f-a77b-d0122f0a0ee6",
+            "created": "2025-03-03T15:38:41.805956Z",
+            "modified": "2025-03-03T15:38:41.805956Z",
+            "relationship_type": "uses",
+            "description": "Red Tigers utilizes Ransomware XYZ in their operations",
+            "source_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f",
+            "target_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d47150d7-05c6-4e2c-adad-a5dbfc8b15c2",
+            "created": "2025-03-03T15:38:41.805956Z",
+            "modified": "2025-03-03T15:38:41.805956Z",
+            "relationship_type": "uses",
+            "description": "Red Tigers utilizes Phantom Injector in their operations",
+            "source_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f",
+            "target_ref": "tool--c1d6b5e9-7ba7-4c23-bd84-63af8fefb4c6"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7208c1f0-8287-4c92-a12f-e592645a7e97",
+            "created": "2025-03-03T15:38:41.805956Z",
+            "modified": "2025-03-03T15:38:41.805956Z",
+            "relationship_type": "indicates",
+            "description": "Suspicious Domain for Phishing Campaign provides evidence of Phantom Injector",
+            "source_ref": "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77",
+            "target_ref": "tool--c1d6b5e9-7ba7-4c23-bd84-63af8fefb4c6"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0cef997d-9509-45de-b6ca-945c882dab89",
+            "created": "2025-03-03T15:38:41.805956Z",
+            "modified": "2025-03-03T15:38:41.805956Z",
+            "relationship_type": "indicates",
+            "description": "Suspicious Domain for Phishing Campaign provides evidence of Phantom Menace",
+            "source_ref": "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1ba05b02-de32-4fc7-9dac-7ffcafb2f954",
+            "created": "2025-03-03T15:38:41.805956Z",
+            "modified": "2025-03-03T15:38:41.805956Z",
+            "relationship_type": "indicates",
+            "description": "Malicious IP Address for Data Exfiltration has been associated with Red Tigers",
+            "source_ref": "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234",
+            "target_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--04651b59-dba6-497f-a45f-065d607676d1",
+            "created": "2025-03-03T15:38:41.805956Z",
+            "modified": "2025-03-03T15:38:41.805956Z",
+            "relationship_type": "indicates",
+            "description": "Malicious IP Address for Data Exfiltration suggests the presence of Phishing Kit 2.0",
+            "source_ref": "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234",
+            "target_ref": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e0af3e75-3272-440b-8953-0d1cc84758b7",
+            "created": "2025-03-03T15:38:41.805956Z",
+            "modified": "2025-03-03T15:38:41.805956Z",
+            "relationship_type": "indicates",
+            "description": "Malicious IP Address for Data Exfiltration has been associated with Credential Grabber",
+            "source_ref": "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234",
+            "target_ref": "tool--72b8b4d7-4f67-4a2e-99d7-cd2cbf342d2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1320643f-f56e-4044-951b-b14fd27cf51f",
+            "created": "2025-03-03T15:38:41.805956Z",
+            "modified": "2025-03-03T15:38:41.805956Z",
+            "relationship_type": "uses",
+            "description": "Ransomware XYZ utilizes Credential Grabber in their operations",
+            "source_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9",
+            "target_ref": "tool--72b8b4d7-4f67-4a2e-99d7-cd2cbf342d2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ff1323e1-0cef-4024-98b9-6a2db46dff5f",
+            "created": "2025-03-03T15:38:41.805956Z",
+            "modified": "2025-03-03T15:38:41.805956Z",
+            "relationship_type": "authored-by",
+            "description": "Phishing Kit 2.0 authored-by Phantom Menace",
+            "source_ref": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f3205ace-d759-4005-b5e1-305f645b324e",
+            "created": "2025-03-03T15:38:41.805956Z",
+            "modified": "2025-03-03T15:38:41.805956Z",
+            "relationship_type": "uses",
+            "description": "Phantom Injector has been observed using Phishing Kit 2.0",
+            "source_ref": "tool--c1d6b5e9-7ba7-4c23-bd84-63af8fefb4c6",
+            "target_ref": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2cdfd96c-b35f-48a8-b362-4c71617f772a",
+            "created": "2025-03-03T15:38:41.805956Z",
+            "modified": "2025-03-03T15:38:41.805956Z",
+            "relationship_type": "uses",
+            "description": "Phantom Injector utilizes Ransomware XYZ in their operations",
+            "source_ref": "tool--c1d6b5e9-7ba7-4c23-bd84-63af8fefb4c6",
+            "target_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--40cb4126-29f8-4441-b355-8a82d90a9e85",
+            "created": "2025-03-03T15:38:41.80702Z",
+            "modified": "2025-03-03T15:38:41.80702Z",
+            "relationship_type": "uses",
+            "description": "Phantom Injector utilizes Red Tigers in their operations",
+            "source_ref": "tool--c1d6b5e9-7ba7-4c23-bd84-63af8fefb4c6",
+            "target_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6f74c763-e467-4c53-b0e6-f84c3750196d",
+            "created": "2025-03-03T15:38:41.80702Z",
+            "modified": "2025-03-03T15:38:41.80702Z",
+            "relationship_type": "uses",
+            "description": "Credential Grabber utilizes Phishing Kit 2.0 in their operations",
+            "source_ref": "tool--72b8b4d7-4f67-4a2e-99d7-cd2cbf342d2f",
+            "target_ref": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ea9f7274-5914-4961-b22c-802ca439be0d",
+            "created": "2025-03-03T15:38:41.80702Z",
+            "modified": "2025-03-03T15:38:41.80702Z",
+            "relationship_type": "uses",
+            "description": "Credential Grabber utilizes Phantom Menace in their operations",
+            "source_ref": "tool--72b8b4d7-4f67-4a2e-99d7-cd2cbf342d2f",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1ba9d416-4787-454d-8719-8560dc3a4308",
+            "created": "2025-03-03T15:38:41.80702Z",
+            "modified": "2025-03-03T15:38:41.80702Z",
+            "relationship_type": "uses",
+            "description": "Credential Grabber leverages Ransomware XYZ for their activities",
+            "source_ref": "tool--72b8b4d7-4f67-4a2e-99d7-cd2cbf342d2f",
+            "target_ref": "malware--b3e5e1e9-ec15-4f30-8b3a-2b4d4f9fbbd9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3c4b40af-7663-4c18-86c2-90641f538be9",
+            "created": "2025-03-03T15:38:41.80702Z",
+            "modified": "2025-03-03T15:38:41.80702Z",
+            "relationship_type": "uses",
+            "description": "Exfiltrator Pro leverages Phishing Kit 2.0 for their activities",
+            "source_ref": "tool--e8e59e8a-e32f-4c25-8d3c-bb6b7e6f6fb7",
+            "target_ref": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cf73596d-8b6f-4212-8380-c1423415b6e3",
+            "created": "2025-03-03T15:38:41.80702Z",
+            "modified": "2025-03-03T15:38:41.80702Z",
+            "relationship_type": "attributed-to",
+            "description": "Silent Specter is believed to be operated by Red Tigers",
+            "source_ref": "intrusion-set--b1a5e5c5-4b5d-4d8c-bf65-8fc5e5c5a1f1",
+            "target_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--91508a06-36ff-45e4-8196-f11a9b672da0",
+            "created": "2025-03-03T15:38:41.80702Z",
+            "modified": "2025-03-03T15:38:41.80702Z",
+            "relationship_type": "attributed-to",
+            "description": "Red Phoenix is connected to Red Tigers",
+            "source_ref": "intrusion-set--c2c5b4d7-6a8e-4f6a-b6e5-fd2e5d7a9c3d",
+            "target_ref": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c9c33101-305c-44c1-9af2-e0c5263ddab4",
+            "created": "2025-03-03T15:38:41.80702Z",
+            "modified": "2025-03-03T15:38:41.80702Z",
+            "relationship_type": "attributed-to",
+            "description": "Red Phoenix is attributed to Phantom Menace",
+            "source_ref": "intrusion-set--c2c5b4d7-6a8e-4f6a-b6e5-fd2e5d7a9c3d",
+            "target_ref": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1d96410b-0c42-474b-859e-14ac3122f458",
+            "created": "2025-03-03T15:38:41.80702Z",
+            "modified": "2025-03-03T15:38:41.80702Z",
+            "relationship_type": "part-of",
+            "description": "Red Phoenix part-of Operation Phantom Shadow",
+            "source_ref": "intrusion-set--c2c5b4d7-6a8e-4f6a-b6e5-fd2e5d7a9c3d",
+            "target_ref": "campaign--bdc2d3c0-8b4c-4f3a-a1ab-1c2d3d6c3b08"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a0daac87-48e5-4263-8780-577230fa9df5",
+            "created": "2025-03-03T15:38:41.80702Z",
+            "modified": "2025-03-03T15:38:41.80702Z",
+            "relationship_type": "uses",
+            "description": "Operation Nightshade has been observed using Phishing Kit 2.0",
+            "source_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92",
+            "target_ref": "malware--4f8b62e4-5bb4-40f5-8d4c-117d0a3be8da"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5b739913-3a77-424f-838f-a2439f566b19",
+            "created": "2025-03-03T15:38:41.808018Z",
+            "modified": "2025-03-03T15:38:41.808018Z",
+            "relationship_type": "targets",
+            "description": "Operation Nightshade focuses attacks on CVE-2023-9101",
+            "source_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92",
+            "target_ref": "vulnerability--8b1c3b2b-6a21-4e75-9b0f-5c7e2f8e4c6e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5332fd65-9a7f-4918-b3d1-179baeb74a0e",
+            "created": "2025-03-03T15:38:41.808018Z",
+            "modified": "2025-03-03T15:38:41.808018Z",
+            "relationship_type": "uses",
+            "description": "Operation Nightshade has been observed using Exfiltrator Pro",
+            "source_ref": "campaign--3f3ac4b7-7c4f-4d2b-9c7f-1e5aa1d96a92",
+            "target_ref": "tool--e8e59e8a-e32f-4c25-8d3c-bb6b7e6f6fb7"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--84639f8c-b270-41b2-9230-bcfec0f7d1bf",
+            "created": "2025-03-03T15:38:41.808018Z",
+            "modified": "2025-03-03T15:38:41.808018Z",
+            "relationship_type": "targets",
+            "description": "Operation Phantom Shadow has been known to target Global Defense Corp.",
+            "source_ref": "campaign--bdc2d3c0-8b4c-4f3a-a1ab-1c2d3d6c3b08",
+            "target_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb"
+        }
+    ]
+}

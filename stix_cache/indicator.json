@@ -1,0 +1,50 @@
+[
+  {
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--ae2f3d2b-7c4d-4c62-9a0b-ff923e1d5b77",
+    "created": "2023-10-12T10:00:00.000Z",
+    "modified": "2023-10-12T10:00:00.000Z",
+    "name": "Suspicious Domain for Phishing Campaign",
+    "description": "This domain has been linked to a phishing campaign targeting financial institutions. Users attempting to access this domain may be at risk of credential theft.",
+    "indicator_types": [
+      "malicious-activity"
+    ],
+    "pattern": "[domain-name:value = 'secure-login-bank.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2023-10-12T10:00:00Z",
+    "valid_until": "2024-10-12T10:00:00Z",
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+        "phase_name": "delivery"
+      }
+    ],
+    "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e"
+  },
+  {
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--b3f2e4a1-0e77-4d7f-bb89-3b3f5b411234",
+    "created": "2023-10-12T11:00:00.000Z",
+    "modified": "2023-10-12T11:00:00.000Z",
+    "name": "Malicious IP Address for Data Exfiltration",
+    "description": "This IP address is associated with data exfiltration activities observed in various incidents involving ransomware. Blocking this IP is recommended to prevent potential breaches.",
+    "indicator_types": [
+      "malicious-activity"
+    ],
+    "pattern": "[ipv4-addr:value = '192.0.2.42']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2023-10-12T11:00:00Z",
+    "valid_until": "2024-10-12T11:00:00Z",
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+        "phase_name": "exfiltration"
+      }
+    ],
+    "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e"
+  }
+]

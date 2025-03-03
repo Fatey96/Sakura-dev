@@ -1,0 +1,59 @@
+[
+  {
+    "type": "course-of-action",
+    "spec_version": "2.1",
+    "id": "course-of-action--f1a3b3e9-63e2-4c9b-95e3-5c7e12345678",
+    "created": "2023-10-12T15:00:00.000Z",
+    "modified": "2023-10-12T15:00:00.000Z",
+    "name": "Patch Vulnerability CVE-2023-9101",
+    "description": "Apply the security patch released for CVE-2023-9101 to mitigate the cross-site scripting vulnerability in the web interface of XYZ File Sharing Service.",
+    "action_type": "mitigation",
+    "os_execution_envs": [
+      "linux",
+      "windows"
+    ],
+    "action_reference": {
+      "url": "https://security.example.com/patches/CVE-2023-9101",
+      "description": "Link to the official patch for CVE-2023-9101."
+    },
+    "created_by_ref": "identity--f3b2c7f1-5e29-4a09-9f6a-7b012b0aef7e"
+  },
+  {
+    "type": "course-of-action",
+    "spec_version": "2.1",
+    "id": "course-of-action--d5e56729-4c3b-4e2a-b3c1-6e1e56789012",
+    "created": "2023-10-12T15:30:00.000Z",
+    "modified": "2023-10-12T15:30:00.000Z",
+    "name": "Restrict Access for CVE-2023-3456",
+    "description": "Implement access controls to limit user permissions and prevent privilege escalation vulnerabilities associated with CVE-2023-3456 in DEF Network Security Tool.",
+    "action_type": "mitigation",
+    "os_execution_envs": [
+      "linux",
+      "windows"
+    ],
+    "action_reference": {
+      "url": "https://security.example.com/controls/CVE-2023-3456",
+      "description": "Documentation on recommended access control measures."
+    },
+    "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb"
+  },
+  {
+    "type": "course-of-action",
+    "spec_version": "2.1",
+    "id": "course-of-action--c8f7d1b8-9d07-4e8c-b8a4-3b2b12345678",
+    "created": "2023-10-12T16:00:00.000Z",
+    "modified": "2023-10-12T16:00:00.000Z",
+    "name": "Input Validation for SQL Injection",
+    "description": "Enhance input validation mechanisms in the customer management module of ABC Retail Software to prevent SQL injection attacks as identified in CVE-2023-5678.",
+    "action_type": "mitigation",
+    "os_execution_envs": [
+      "windows",
+      "linux"
+    ],
+    "action_reference": {
+      "url": "https://security.example.com/validation/CVE-2023-5678",
+      "description": "Best practices for input validation to prevent SQL injection."
+    },
+    "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb"
+  }
+]

@@ -24,7 +24,6 @@ import { StixProvider } from './Components/EntitySelector/StixContext';
 import { MouseTrail } from './Components/MouseTrail/MouseTrail';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Icosahedron } from '@react-three/drei';
-import { MetricsProvider } from './contexts/MetricsContext';
 
 const Feature = ({ icon, title, description }) => {
   return (
@@ -211,15 +210,19 @@ const LandingPage = () => {
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/entitySelector" element={<EntitySelector />} />
-        <Route path="/generate" element={<Generate />} />
-        <Route path="/stix-visualizer" element={<STIXVisualizer />} />
-      </Routes>
-    </Router>
+    <ChakraProvider theme={theme}>
+      <StixProvider>
+        <Router>
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/entitySelector" element={<EntitySelector />} />
+            <Route path="/generate" element={<Generate />} />
+            <Route path="/stix-visualizer" element={<STIXVisualizer />} />
+          </Routes>
+        </Router>
+      </StixProvider>
+    </ChakraProvider>
   );
 }
 

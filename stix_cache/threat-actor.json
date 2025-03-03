@@ -1,0 +1,132 @@
+[
+  {
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--03a1e9f6-8a2b-4b95-8b7f-5f5b210c3d5a",
+    "created": "2023-10-01T10:00:00.000Z",
+    "modified": "2023-10-01T10:00:00.000Z",
+    "name": "Phantom Menace",
+    "description": "Phantom Menace is an elusive cyber criminal group known for targeting financial institutions through sophisticated phishing campaigns and malware distribution.",
+    "aliases": [
+      "Specter Hackers",
+      "Ghost Syndicate"
+    ],
+    "threat_actor_types": [
+      "criminal",
+      "hacktivist"
+    ],
+    "roles": [
+      "financial fraudster",
+      "data thief"
+    ],
+    "goals": [
+      "financial gain",
+      "identity theft"
+    ],
+    "sophistication": "intermediate",
+    "resource_level": "individual",
+    "primary_motivation": "monetary",
+    "secondary_motivations": [
+      "disruption",
+      "exposing vulnerabilities"
+    ],
+    "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb"
+  },
+  {
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--2d0f1cbb-5c77-4e11-bb91-bd94d5c51c0f",
+    "created": "2023-10-02T12:30:00.000Z",
+    "modified": "2023-10-02T12:30:00.000Z",
+    "name": "Red Tigers",
+    "description": "Red Tigers is a state-sponsored threat actor group believed to be operating on behalf of a national government, focusing on espionage against military and governmental entities.",
+    "aliases": [
+      "APT 34",
+      "Tiger Team"
+    ],
+    "threat_actor_types": [
+      "nation-state",
+      "espionage"
+    ],
+    "roles": [
+      "offensive cyber operations",
+      "intelligence gathering"
+    ],
+    "goals": [
+      "strategic espionage",
+      "data exfiltration"
+    ],
+    "sophistication": "advanced",
+    "resource_level": "government",
+    "primary_motivation": "national security",
+    "secondary_motivations": [
+      "political leverage",
+      "economic advantage"
+    ],
+    "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb"
+  },
+  {
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--c8e1551c-9f3e-43f3-9f5e-0a62e7e5a2f1",
+    "created": "2023-10-03T14:45:00.000Z",
+    "modified": "2023-10-03T14:45:00.000Z",
+    "name": "Blue Snakes",
+    "description": "Blue Snakes is a cybercrime organization specialized in ransomware deployment, often targeting healthcare and educational institutions.",
+    "aliases": [
+      "Ransomware Kings",
+      "Lockdown Crew"
+    ],
+    "threat_actor_types": [
+      "criminal"
+    ],
+    "roles": [
+      "malware distributor",
+      "extortionist"
+    ],
+    "goals": [
+      "financial gain",
+      "disruption of services"
+    ],
+    "sophistication": "high",
+    "resource_level": "organized crime",
+    "primary_motivation": "monetary",
+    "secondary_motivations": [
+      "chaos",
+      "revenge"
+    ],
+    "created_by_ref": "identity--b0e6f7a2-0a8a-4fb9-bd3a-8e67841e2cbb"
+  },
+  {
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--6b5f7fbd-5c3e-4c56-8f0f-f6a5d2a1f3e2",
+    "created": "2023-10-04T09:15:00.000Z",
+    "modified": "2023-10-04T09:15:00.000Z",
+    "name": "Green Lanterns",
+    "description": "Green Lanterns is a hacktivist group known for their campaigns against corporations perceived as environmentally harmful, utilizing DDoS attacks and website defacements.",
+    "aliases": [
+      "Eco Warriors",
+      "Green Hackers"
+    ],
+    "threat_actor_types": [
+      "hacktivist"
+    ],
+    "roles": [
+      "cyber protestor",
+      "activist"
+    ],
+    "goals": [
+      "raising awareness",
+      "disrupting harmful practices"
+    ],
+    "sophistication": "beginner",
+    "resource_level": "group",
+    "primary_motivation": "ideological",
+    "secondary_motivations": [
+      "social impact",
+      "community engagement"
+    ],
+    "created_by_ref": "identity--c62fbded-6a2c-4e9a-8a9d-d6a73e6e9a1e"
+  }
+]

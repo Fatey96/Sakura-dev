@@ -1,0 +1,86 @@
+{
+    "type": "bundle",
+    "id": "bundle--0a809548-9072-4730-8a81-78d0e83b102f",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--5a3d2e38-2e6f-4f63-a6d1-63cf0a4b721b",
+            "created": "2023-10-01T14:30:00.000Z",
+            "modified": "2023-10-01T14:30:00.000Z",
+            "name": "Global Cyber Defense Group",
+            "description": "A multinational organization focused on providing advanced cybersecurity solutions and threat intelligence services to enterprises worldwide.",
+            "roles": [
+                "cybersecurity-consultant",
+                "threat-intelligence-provider",
+                "incident-response-team"
+            ],
+            "identity_class": "organization",
+            "sectors": [
+                "finance",
+                "government",
+                "healthcare"
+            ],
+            "contact_information": "contact@globalcyberdefense.example.com"
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--d7c3f2d3-0987-4b6e-beb1-5d5b5e9a2f91",
+            "created_by_ref": "identity--c9260cf2-1c3b-46a8-b66f-c29a9dc5c78f",
+            "created": "2023-10-01T12:00:00.000Z",
+            "modified": "2023-10-01T12:00:00.000Z",
+            "name": "Phantom Legion",
+            "description": "Phantom Legion is a cybercriminal group specializing in ransomware attacks against large enterprises, particularly in the finance and healthcare sectors. They are known for their sophisticated techniques and ability to evade detection.",
+            "threat_actor_types": [
+                "criminal",
+                "hacktivist"
+            ],
+            "aliases": [
+                "Ghost Syndicate",
+                "Specter Crew"
+            ],
+            "roles": [
+                "developer",
+                "operator"
+            ],
+            "goals": [
+                "financial gain",
+                "disruption of services"
+            ],
+            "sophistication": "high",
+            "resource_level": "organized-crime",
+            "primary_motivation": "financial-profit",
+            "secondary_motivations": [
+                "political-agenda",
+                "retribution"
+            ],
+            "personal_motivations": [
+                "recognition",
+                "thrill-seeking"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a3eae1ad-f8da-4035-b0b6-f1644acde30e",
+            "created": "2025-03-02T02:28:17.287007Z",
+            "modified": "2025-03-02T02:28:17.287007Z",
+            "relationship_type": "attributed-to",
+            "description": "Global Cyber Defense Group is attributed to Phantom Legion",
+            "source_ref": "identity--5a3d2e38-2e6f-4f63-a6d1-63cf0a4b721b",
+            "target_ref": "threat-actor--d7c3f2d3-0987-4b6e-beb1-5d5b5e9a2f91"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fd7a210a-50e1-436e-aba8-3ea820b174f9",
+            "created": "2025-03-02T02:28:17.287007Z",
+            "modified": "2025-03-02T02:28:17.287007Z",
+            "relationship_type": "attributed-to",
+            "description": "Phantom Legion is attributed to Global Cyber Defense Group",
+            "source_ref": "threat-actor--d7c3f2d3-0987-4b6e-beb1-5d5b5e9a2f91",
+            "target_ref": "identity--5a3d2e38-2e6f-4f63-a6d1-63cf0a4b721b"
+        }
+    ]
+}
