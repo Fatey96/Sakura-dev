@@ -1,7 +1,0 @@
-.env
-.stix_cache/
-node_modules/
-.DS_Store
-__pycache__/
-.stix_output/
-".env" 
